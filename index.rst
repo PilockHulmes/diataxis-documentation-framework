@@ -15,16 +15,16 @@ Diátaxis
 
    Home <self>
 
-..  rubric:: A systematic approach to technical documentation authoring.
+..  rubric:: 技术文档撰写的系统化方法。
 
 ----------
 
-Diátaxis is a way of thinking about and doing documentation.
+Diátaxis 是一种关于文档的思考和实践方式。
 
-It prescribes approaches to content, architecture and form that emerge from a systematic approach to understanding the needs of documentation users.
+它规定了从系统化理解文档用户需求的方法中衍生出的内容、架构与形式的处理方式。
 
 
-Diátaxis identifies four distinct needs, and four corresponding forms of documentation - *tutorials*, *how-to guides*, *technical reference* and *explanation*. It places them in a systematic relationship, and proposes that documentation should itself be organised around the structures of those needs.
+Diátaxis 框架归纳出四种不同的需求，并对应提出四种文档形式——*教程*、*操作指南*、*参考手册* 和 *概念解析*。该框架将它们置于系统化的关联体系中，并主张文档本身应当围绕这些需求结构进行组织。
 
 .. image:: /images/diataxis.png
    :alt: Diátaxis
