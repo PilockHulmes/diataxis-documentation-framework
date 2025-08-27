@@ -13,7 +13,7 @@ Diátaxis
    :hidden:
    :titlesonly:
 
-   Home <self>
+   首页 <self>
 
 ..  rubric:: 技术文档撰写的系统化方法。
 
@@ -32,11 +32,11 @@ Diátaxis 框架归纳出四种不同的需求，并对应提出四种文档形�
 
 ..  sidebar::
 
-    *Diátaxis*, from the Ancient Greek δῐᾰ́τᾰξῐς: *dia* ("across") and *taxis* ("arrangement").
+    *Diátaxis*, 源自古希腊语 δῐᾰ́τᾰξῐς: *dia* ("跨越") 和 *taxis* ("排列")。
 
-Diátaxis solves problems related to documentation *content* (what to write), *style* (how to write it) and *architecture* (how to organise it).
+Diátaxis 解决了与文档 *内容* （写什么）、 *风格* （如何写）及 *架构* （如何组织）相关的问题。
 
-As well as serving the users of documentation, Diátaxis has value for documentation creators and maintainers. It is light-weight, easy to grasp and straightforward to apply. It doesn't impose implementation constraints. It brings an active principle of quality to documentation that helps maintainers think effectively about their own work.
+Diátaxis 不仅服务于文档用户，对文档创建者和维护者也具有价值。它轻量、易于掌握且直接适用，不会强加实现约束。它为文档引入了积极的质量原则，帮助维护者有效思考自身工作。
 
 ------
 
@@ -51,7 +51,7 @@ Contents
 
     ..  grid-item::
 
-        The best way to get started with Diátaxis is by applying it after reading a brief primer.
+        开始使用 Diátaxis 的最佳方式是在阅读简短入门指南后立即应用。
 
     ..  grid-item::
 
