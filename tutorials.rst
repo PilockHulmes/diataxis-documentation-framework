@@ -3,188 +3,188 @@
 教程
 =========
 
-..  rubric:: A tutorial is an **experience** that takes place under the guidance of a tutor. A tutorial is always **learning-oriented**. 
+..  rubric:: 教程是一种在导师指导下进行的**体验**。教程始终以**学习为导向**。
 
 ===========
 
-A tutorial is a *practical activity*, in which the student learns by doing something meaningful, towards some achievable goal. 
+教程是一种 *实践性活动*，学生在其中通过动手实践完成有意义的事情，从而学习知识，达成可实现的目标。
 
-A tutorial serves the user's *acquisition* of skills and knowledge - their study. Its purpose is not to help the user get something done, but to help them learn. 
+教程服务于用户对技能和知识的 *获取* ——— 即他们的学习。其目的不是帮助用户完成某项任务，而是帮助其学习。
 
 ..  image:: /images/overview-tutorials.png
     :alt: Tutorials - learning-oriented guides that describe practical steps and are intended to serve our study.
     :class: sidebar
 
-A tutorial in other words is a lesson. 
+换句话说，一篇教程即一堂课。
 
-It's important to understand that while a student will learn by doing, what the student *does* is not necessarily what they *learn*. Through doing, they will acquire theoretical knowledge (i.e. facts), understanding, familiarity. They will learn how things relate to each other and interact, and how to interact with them. They will learn the names of things, the use of tools, workflows, concepts, commands. And so on.
+需要理解的是：虽然学生通过实践来学习，但学生的 *实践* 内容并不完全等同于他们的 *习得* 内容。通过实践，他们将获得理论知识（即事实）、理解力和熟悉度。他们将学会事物之间的关联与交互方式，以及如何与之互动。他们将掌握事物命名、工具使用、工作流程、概念理解和命令操作等知识。
 
 
 =================
 
 
-The tutorial as a lesson
+教程即课程
 ------------------------
 
-A lesson entails a relationship between a teacher and a pupil. In all learning of this kind, *learning takes place as the pupil applies themself to tasks under the instructor's guidance*.
+课程涉及教师与学生之间的关系。在此类学习中， *学习发生在学生于导师指导下全身心投入任务的过程中*。
 
-A lesson is a *learning experience*. In a learning experience, what matters is what the learner does and what happens. By contrast, the teacher's explanations and recitations of fact are far less important.
+课程是一种 *学习体验*。在学习体验中，关键因素在于学习者的实践过程及其产生的实际效果。相比之下，教师的解释和事实陈述则远没有那么重要。
 
-A good lesson gives the learner confidence, by showing them that they can be successful in a certain skill or with a certain product.
+一堂优质的课程能向学习者展示其在特定技能或产品应用上取得成功的能力，从而建立学习者的信心。
 
 
-Obligations of the teacher
+教师的义务
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ..  sidebar::
 
-    It's not easy being a teacher.
+    当老师不容易。
 
-A lesson is a kind of contract between teacher and student, in which nearly all the responsibility falls upon the teacher. The teacher has responsibility for what the pupil is to learn, what the pupil will do in order to learn it, and for the pupil's success. Meanwhile, the only responsibility of the pupil in this contract is to be attentive and to follow the teacher's directions as closely as they can. There is no responsibility on the pupil to learn, understand or remember.
+课程是师生之间的一种契约关系，其中几乎全部责任都落在教师身上。教师需要负责确定学生的学习内容、规划学习方式，并确保学生的学习成效。而学生在此契约中唯一的责任就是保持专注，并尽可能严格地遵循教师的指导。学生并不承担学习、理解或记忆的责任。
 
-At the same time, the exercise you put your pupils through must be:
+同时，您为学生设计的练习必须满足以下要求：
 
-* *meaningful* - the pupil needs to have a sense of achievement
-* *successful* - the pupil needs to be able to complete it
-* *logical* - the path that the pupil takes through it needs to make sense
-* *usefully complete* - the pupil must have an encounter with all of the actions, concepts and tools they need to become familiar with
+* *有意义* - 学生需要获得成就感
+* *可完成* - 学生需要能够顺利完成练习
+* *符合逻辑* - 学生的练习路径需要具备合理性
+* *完整有效* - 学生必须接触到所有需要熟悉的操作、概念和工具
 
 
-The problem of tutorials
+教程类文档的问题
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-In general, tutorials are rarely done well, partly because they are genuinely difficult to do well, and partly because they are not well understood. In software, many products lack good tutorials, or lack tutorials completely; tutorials are often conflated with how-to guides.
+总体而言，教程类文档鲜有佳作，部分原因在于其撰写本身确实存在难度，部分原因则在于人们对这类文档的理解尚不充分。在软件领域，许多产品缺乏优质教程，甚至完全没有教程；教程也常常与操作指南混为一谈。
 
-In an ideal lesson, the teacher is present and interacts with and responds to the student, correcting their mistakes and checking their learning. In documentation, none of this is possible.
+在理想的教学场景中，教师会亲临现场，与学生互动并给予反馈，纠正错误并检验学习成果。而在文档体系中，这些都无法实现。
 
 ..  sidebar::
 
-    Writing and maintaining tutorials can consume a remarkable amount of effort and time.
+    编写和维护教程会耗费大量的精力和时间。
 
-It's hard enough to put together a learning experience that meets all the standards described above; in many contexts the product itself evolves rapidly, meaning that all that work needs to be done again to ensure that the tutorial still performs its required functions.
+要构建一个符合上述所有标准的学习体验已经相当困难；在许多情况下，产品本身会快速迭代，这意味着所有工作都需要重做以确保教程仍能实现其必备功能。
 
-You will also often find that no other part of your documentation is subject to revisions the way your tutorials are. Elsewhere in documentation, changes and improvements can generally be made discretely; in tutorials, where the end-to-end learning journey must make sense, they often cascade through the entire story. 
+您还会经常发现，文档的其他部分都不会像教程那样频繁需要修订。在文档的其他部分，改动和优化通常可以独立进行；但在教程中，由于端到端的学习流程必须保持连贯，这些修改往往会引发整个教程的连锁调整。
 
-Finally, tutorials contain the additional complication of the distinction between *what is to be learned* and *what is to be done*. Not only must the creator of a tutorial have a good sense of what the user must learn, and when, they must also devise a meaningful learning journey that somehow delivers all that.
+最后，教程还额外复杂在需要区分 *所学内容* 与 *所学操作*。教程创作者不仅需要准确把握用户必须学习的内容及学习时机，还必须设计出能完整传递所有知识点的有意义学习路径。
 
 
 =================
 
-Key principles
+核心原则
 --------------
 
-A tutorial is a pedagogical problem. 
+教程是一个教学难题。
 
-It's not an easy problem, but neither is it a mystery. The principles outlined below - repetition, action, small steps, results early and often, concreteness and so on - are not secrets, but they are not always well understood.
+这并非易事，但也并非无章可循。下文所述的原则——重复练习、实践操作、小步渐进、即时反馈、具体实例等——虽非秘密，却未必被充分理解。
 
-Still, there are straightforward, effective ways to address the problems of pedagogy in practice.
+尽管如此，实践中确实存在直接有效的教学方法来解决这些教学难题。
 
-..  sidebar:: Anti-pedagogical temptations
+..  sidebar:: 反教学诱惑
 
-    * abstraction, generalisation
-    * explanation
-    * choices
-    * information
+    * 抽象化与泛化
+    * 概念解析
+    * 选择项
+    * 信息堆砌
 
-The first rule of teaching is simply: **don't try to teach**. Your job, as a teacher, is to provide the learner with an experience that will allow them to learn. A teacher inevitably feels a kind of anxiety to impart knowledge and understanding, but if you give into it and try to teach by telling and explaining, you will jeopardise the learning experience. 
+教学的首要原则很简单： **不要试图去教**。作为教师，你的职责是为学习者提供能够促使其学习的体验。教师难免会产生一种传授知识与理解的焦虑感，但若屈服于这种焦虑，试图通过讲述和解释来教学，反而会损害学习体验。
 
-Instead, *allow learning to take place*, and trust that it will. Give your learner things to *do*, through which they can learn. Only your pupil can learn. Sadly, however much you desire it, you will not be able to learn for your pupil. You cannot make them learn. All you can do is make it so *they* can learn.
+相反， *要让学习自然发生*，并相信它会发生。为学习者提供可 *实践* 的内容，让他们通过实践来学习。只有学习者本人才能完成学习。遗憾的是，无论你多么渴望，都无法代替学习者学习。你无法强迫他们学习，所能做的只是创造 *让他们* 能够学习的条件。
 
 
-Show the learner where they'll be going
+向学习者指明学习方向
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It's important to allow the learner to form an idea of what they will achieve right from the start. As well as helping to set expectations, it allows them to see themselves building towards the completed goal as they work. 
+让学习者从一开始就明确自己将达成何种目标至关重要。这既有助于设定预期，也能让他们在学习过程中看到自己逐步接近最终成果。 
 
-Providing the picture the learner needs in a tutorial can be as simple as informing them at the outset: *In this tutorial we will create and deploy a scalable web application. Along the way we will encounter containerisation tools and services.*
+在教程中为学习者提供所需图景很简单，可以在一开始就告知他们： *本教程将指导您创建并部署一个可扩展的Web应用程序。在此过程中，我们将使用容器化工具及相关服务。*
 
-This is not the same as saying: *In this tutorial you will learn...* - which is presumptuous and a very poor pattern. 
+这与以下表述有本质区别： *在本教程中您将学习...* ——这种预设性表述是极其糟糕的范式。
 
 
-Deliver visible results early and often
+尽早且持续交付可见成果
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Your learner is probably doing new and strange things that they don't fully understand. Understanding comes from being able to make connections between causes and effects, so let them see the results and make the connections rapidly and repeatedly. Each one of those results should be something that the user can see as meaningful.
+您的学习者可能正在做一些他们尚未完全理解的新奇操作。理解能力源于建立因果关系的能力，因此要让他们快速、反复地看到结果并建立这种联系。每一个结果都应是用户能感知到实际意义的。
 
-Every step the learner follows should produce a comprehensible result, however small.
+学习者遵循的每个步骤都应产生可理解的结果——无论这个结果多么微小。
 
 
-Maintain a narrative of the expected
+持续记录预期进展的轨迹
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-At every step of a tutorial, the user experiences a moment of anxiety: will this action produce the correct result? Part of the work of a successful tutorial is to keep providing feedback to the learner that they are indeed on the right path.
+在教程的每个步骤中，用户都会经历一个焦虑时刻：这个操作会产生正确结果吗？成功教程的因素之一在于持续向学习者提供反馈，确认他们确实走在正确的道路上。
 
-Keep up a narrative of expectations: "You will notice that ..."; "After a few moments, the server responds with ...". Show the user actual example output, or even the exact expected output.
+持续描述预期结果：“您将注意到...”；“片刻之后，服务器会响应...”。向用户展示实际示例输出，甚至是确切的预期输出。
 
-If you know know in advance what the likely signs of going wrong are, consider flagging them: "If the output doesn't show ..., you have probably forgotten to ...".
+若您能提前预判可能出错的迹象，建议进行标记提示："若输出未显示...，则可能遗漏了..."。
 
-It's helpful to prepare the user for possibly surprising actions: "The command will probably return several hundred lines of logs in your terminal."
+预先告知用户可能出现的意外操作会很有帮助："该命令可能会在终端返回数百行日志。"
 
 
-Point out what the learner should notice
+指出学习者应注意的事项
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Learning requires reflection. This happens at multiple levels and depths, but one of the first is when the learner  observes the signs in their environment. In a lesson, a learner is typically too focused on what they are doing to notice them, unless they are prompted by the teacher.
+学习需要反思。这种反思发生在多个层面和深度上，但最早会发生在学习者观察到环境中的信号时。在课程中，学习者通常过于专注于当前操作而忽略这些信号，除非教师主动提示。
 
-Your job as teacher is to close the loops of learning by pointing things out, in passing, as the lesson moves along. This can be as simple as pointing out how a command line prompt changes, for example.
+作为教师，您的职责是在教学推进过程中通过即时点拨来闭合学习回路。例如，您只需简单指出命令行提示符的变化即可实现这一点。
 
-Observing is an active part of a craft, not a merely passive one. It means paying attention to the environment, a skill in itself. It's often neglected.
+观察是技艺实践中的主动行为，而非被动接受。它意味着对环境保持专注——这本身就是一项常被忽视的技能。
 
 
-Target *the feeling of doing*
+瞄准 *实践感*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In all skill or craft, the accomplished practitioner experiences a *feeling of doing*, a joined-up purpose, action, thinking and result. 
+在任何技艺或工艺中，熟练的实践者都会体验到一种 *实践感*——一种将目标、行动、思考和结果融为一体的状态。
 
-As skill develops, it flows in a confident rhythm and becomes a kind of pleasure. It's the pleasure of walking, for example.
+随着技能的提升，这种状态会以自信的节奏流动，成为一种愉悦体验。正如行走时获得的愉悦感。
 
 ..  sidebar::
 
-    Pay attention to your own *feeling of doing* in your work. What is it like to perform a particular operation?
+    在工作中关注自身的 *实践感*。执行特定操作时的体验是怎样的？
 
-Your learner's skill depends upon their discovering this feeling, and its becoming a pleasure. 
+学习者的技能水平取决于他们能否发现这种感受，并使之成为乐趣。
 
-Your challenge as the creator of a tutorial is to ensure that its tasks tie together purpose and action so they become a cradle for this feeling.
+作为教程创作者，您的挑战在于确保任务设计能将目标与行动有机结合，使之成为孕育这种感受的摇篮。
 
 
-Encourage and permit repetition
+鼓励并允许重复练习
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Learners will return to and repeat an exercise that gives them success, for the pleasure they find in getting the expected result. Doing so reaffirms to them that they can do it, and that it works. 
+学习者会反复练习那些能带来成功感的任务，因为他们享受获得预期结果的愉悦。这种行为向他们确认了自己能够胜任且方法有效。
 
-Repetition is a key to establishing the feeling to doing; being at home with that feeling is a foundational layer of learning.
+重复是建立实践感的关键，而熟悉这种感觉正是学习的基础层。
 
 ..  sidebar::
 
-    Repetition is not the best teacher - sometimes it's the *only* teacher.
+    重复并非最佳导师——有时它是 *唯一* 的导师。
 
-In your tutorial, try to make it possible for a particular step and result to be repeated. This can be difficult, for example in operations that are not reversible (making it hard to go back to a previous step) - but seek it wherever you can. Watching a user follow a tutorial, you may often be amazed to see how often they choose to repeat a step. They are doing it just to see that the same thing really does happen again.
+在编写教程时，应确保特定步骤及其结果能够被重复执行。虽然某些不可逆操作（例如难以回退到前序步骤）会带来挑战，但仍需尽可能实现这一点。观察用户跟随教程操作时，您会惊讶地发现他们频繁选择重复某个步骤——仅仅为了确认相同的结果会再次出现。
 
 
-Ruthlessly minimise explanation
+不遗余力地精简概念解析
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*A tutorial is not the place for explanation.* In a tutorial, the user is focused on correctly following your directions and getting the expected results. *Later*, when they are ready, they will seek explanation, but right now they are concerned with *doing*. Explanation distracts their attention from that, and blocks their learning.
+教程不是进行概念解析的场合。在教程中，用户的注意力集中在正确遵循指引并获得预期结果上。 *后续* 当他们准备好时，自然会寻求解释，但此刻他们关注的是 *实践*。解释会分散他们的注意力，阻碍学习进程。
 
-For example, it's quite enough to say something like: *We're using HTTPS because it's more secure.* There is a place for extended discussion and explanation of HTTPS, but not now. Instead, provide a link or reference to that explanation, so that it's available, but doesn't get in the way.
+例如，只需简单说明：*我们使用 HTTPS 是因为它更安全*。关于 HTTPS 的延伸讨论和概念解析自有其适用场景，但绝非当下。应该提供相关解释的链接或参考文献，既保证信息可获取，又不妨碍实践流程。
 
 ..  sidebar::
 
-    Explanation is only pertinent at the moment the *user* wants it. It is not for the documentation author to decide. 
+    概念解析仅在 *用户* 需要时才具有相关性。这不应由文档编写者自行决定。
 
-Explanation is one of the hardest temptations for a teacher to resist; even experienced teachers find it difficult to accept that their students' learning does not depend on explanation. This is perfectly natural. Once we have grasped something, we rely on the power of abstraction to frame it to ourselves - and that's how we want to frame it to others. Understanding means grasping general ideas, and abstraction is the logical form of understanding - but these are not what we need in a tutorial, and it's not how successful learning or teaching works.
+概念解析是教师最难抗拒的诱惑之一，即便是经验丰富的教师也难以接受学生的学习成效并不依赖于概念解析。这种现象再自然不过。一旦我们掌握了某个知识，就会依赖抽象化的力量来构建自己的理解框架——这也正是我们希望向他人传递的认知方式。理解意味着把握大致概念，而抽象化是理解的内在逻辑形式——但这些恰恰是教程中不需要的元素，也绝非成功教学或学习的运作方式。
 
-One must see it for oneself, to see the focused attention of a student dissolve into air, when a teacher's well-intentioned explanation breaks the magic spell of learning.
+必须亲眼所见，才能体会当教师善意的解释打破学习魔咒时，学生那种全神贯注的状态如何瞬间消散于无形。
 
 
-... and focus on the concrete
+... 并聚焦于具体实践
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In a learning situation, your student is in the moment, a moment composed of concrete things. You are responsible for setting up and maintaining the student's flow, from one concrete action and result to another.
+在学习时，学生专注于具体的实践行为。教师的责任在于建立并维持学生的"心流"状态，使其从一个具体实践及结果自然过渡到下一个。
 
-Focus on *this* problem, *this* action, *this* result, in such a way that you lead the learner from step to concrete step. 
+聚焦于 *这个* 问题、 *这个* 操作、 *这个* 结果，以循序渐进的方式引导学习者从具体步骤迈向实质成果。
 
-It might seem that by maintaining focus on the concrete and particular that you deny the student the opportunity to see or grasp the larger general patterns, but the contrary is true. The one thing our minds do spectacularly well is to perceive general patterns from concrete examples. All learning moves in one direction: from the concrete and particular, towards the general and abstract. The latter *will* emerge from the former.
+表面上看，持续聚焦具体细节似乎剥夺了学生认知或把握更宏观通用模式的机会，但事实恰恰相反。我们的大脑有一项非凡能力，就是从具体实例中感知泛化模式。所有学习都遵循同一方向：从具体特例出发，逐步迈向通用抽象。后者 *必将* 从前者的土壤中自然涌现。
 
 
 Ignore options and alternatives
