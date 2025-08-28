@@ -40,7 +40,7 @@ Diátaxis 不仅服务于文档用户，对文档创建者和维护者也具有�
 
 ------
 
-Contents
+目录
 --------
 
 
@@ -61,31 +61,11 @@ Contents
             :maxdepth: 1
             :titlesonly:
 
-            Start here <start-here>
+            快速开始 <start-here>
 
     ..  grid-item::
 
-        These pages will help make immediate, concrete sense of the approach.
-
-    ..  grid-item::
-
-        ..  rst-class:: toc-with-header
-
-        ..  toctree::
-            :maxdepth: 1
-            :titlesonly:
-
-            application
-            Tutorials <tutorials>
-            How-to guides <how-to-guides>
-            Reference <reference>
-            Explanation <explanation>
-            compass
-            Workflow <how-to-use-diataxis>
-
-    ..  grid-item::
-
-        This section explores the theory and principles of Diátaxis more deeply, and sets forth the understanding of needs that underpin it.
+        这些内容将帮助您快速对该方法形成具体认识。
 
     ..  grid-item::
 
@@ -95,39 +75,56 @@ Contents
             :maxdepth: 1
             :titlesonly:
 
-            theory
-            foundations
-            map
-            Quality <quality>
-            Tutorials and how-to guides <tutorials-how-to>
-            Reference and explanation <reference-explanation>
-            Complex hierarchies <complex-hierarchies>
+            运用 Diátaxis <application>
+            教程 <tutorials>
+            操作指南 <how-to-guides>
+            参考手册 <reference>
+            概念解析 <explanation>
+            罗盘 <compass>
+            工作流 <how-to-use-diataxis>
+
+    ..  grid-item::
+
+        这一章节将深入探讨 Diátaxis 框架的理论与原则，并阐述支撑该框架的需求理解基础。
+
+    ..  grid-item::
+
+        ..  rst-class:: toc-with-header
+
+        ..  toctree::
+            :maxdepth: 1
+            :titlesonly:
+
+            理解 Diátaxis <theory>
+            理论基础 <foundations>
+            图谱 <map>
+            质量 <quality>
+            教程与操作指南的区别 <tutorials-how-to>
+            参考手册与概念解析的区别 <reference-explanation>
+            复杂层级结构 <complex-hierarchies>
             The body <the-body>
 
 --------
 
-Diátaxis is proven in practice. Its principles have been adopted successfully in hundreds of documentation projects.
+Diátaxis 在实践中已得到验证。其原则已在数百个文档项目中成功应用。
 
 
 .. epigraph::
 
-    Diátaxis has allowed us to build a high-quality set of internal documentation that our users love, and our contributors love adding to.
+    Diátaxis 帮助我们构建了一套高质量的内部文档体系，这些文档深受用户喜爱，并且贡献者也乐于持续完善。
 
     -- Greg Frileux, `Vonage <https://vonage.com/>`_
 
 ..  epigraph::
 
-    At Gatsby we recently reorganized our open-source documentation, and the Diátaxis framework was our go-to resource
-    throughout the project. The four quadrants helped us prioritize the user’s goal for each type of documentation. By
-    restructuring our documentation around the Diátaxis framework, we made it easier for users to discover the
-    resources that they need when they need them.
+    在 Gatsby，我们近期重组了开源文档体系，Diátaxis 框架在整个项目中始终是我们的核心参考依据。四个象限模型帮助我们优先考虑了每类文档的用户目标。通过基于 Diátaxis 框架重构文档体系，我们让用户能够更轻松地在需要时找到所需资源。
 
     -- `Megan Sullivan <https://hachyderm.io/@meganesulli>`_
 
 
 ..  epigraph::
 
-    While redesigning the `Cloudflare developer docs <https://developers.cloudflare.com>`_, Diátaxis became our north star for information architecture. When we weren't sure where a new piece of content should fit in, we'd consult the framework. Our documentation is now clearer than it's ever been, both for readers and contributors.
+    在重新设计 `Cloudflare 开发者文档 <https://developers.cloudflare.com>`_ 时，Diátaxis 成为了我们信息架构的指路明灯。当我们不确定新内容应归属何处时，就会参考该框架。如今我们的文档对读者和贡献者而言都达到了前所未有的清晰度。
 
     -- `Adam Schwartz <https://github.com/adamschwartz>`_
 

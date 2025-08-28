@@ -1,106 +1,106 @@
 .. meta::
    :description:
-       The best way to get started with Diátaxis is by applying it to documentation problems.
+       开始使用 Diátaxis 的最佳方式是在阅读简短入门指南后立即应用。
 
 =======================================
-Start here - Diátaxis in five minutes
+快速开始 - 五分钟入门 Diátaxis
 =======================================
 
 ..  sidebar::
 
-    Treat this website as a handbook or a toolbox that you make use of when you need it. 
+    请将本网站视为一本可随时取用的手册或工具箱。
 
-You don't need to read everything on this website to make sense of Diátaxis, or to start using it in practice. In fact I recommend that you don't. **The best way to get started with Diátaxis is by applying it** - to something, however small.
+理解 Diátaxis 或是将其用于实践中并不需要你读完本网站中的所有内容。事实上我建议你别一次读完。**入门 Diátaxis 的最佳方式就是在读完这份简短的指南以后开始使用它**来写些什么，无论篇幅多短。
 
-Read this page for a brief primer. Each section contains links to more in-depth material; refer to that when you need it - when you're actually at work, or reflecting on the documentation problems you have encountered.
+阅读入门指南中的内容。每节内容都附有深入说明的资料链接；当你实际工作中遇到问题，或反思遇到的文档难题时，可按需查阅对应链接。
 
 ------------
 
-The four kinds of documentation
+文档的四种类型
 ===============================
 
-The core idea of Diátaxis is that there are fundamentally four identifiable kinds of documentation, that respond to four different needs. The four kinds are: *tutorials*, *how-to guides*, *reference* and *explanation*. Each has a different purpose, and needs to be written in a different way.
+Diátaxis 的核心理念是文档从根本上来说有四种类型，每种类型对应一种需求。这四种类型是： *教程* ， *操作指南* ， *参考手册* 和 *概念解析*。每一种都服务于不同目标，并且需要用不同的写法。
 
 
-Tutorials
+教程
 ---------
 
 ..  sidebar::
    
-    * :ref:`Tutorials in more detail <tutorials>`
-    * :ref:`Why tutorials are completely different from how-to guides <tutorials-how-to>`
+    * :ref:`教程的更多细节 <tutorials>`
+    * :ref:`为什么教程和操作指南是完全不同的两类文档 <tutorials-how-to>`
 
-**A tutorial is a lesson**, that takes a student by the hand through a learning experience. A tutorial is always *practical*: the user *does* something, under the guidance of an instructor. A tutorial is designed around an encounter that the learner can make sense of, in which the instructor is responsible for the learner's safety and success.
+**一篇教程就像是一节课**，需要手把手的带领学员学习经验。教程总是 *务实* 的：用户需要在教练的指导下 *学习* 一些事。一个教程应该围绕“能让学员在教练的指导下安全顺利的弄懂事情”来设计。
 
-A driving lesson is a good example of a tutorial. The purpose of the lesson is to develop skills and confidence in the student, not to get from A to B. A software example could be: *Let's create a simple game in Python*.
+驾驶课程就是一个很好的例子。课程的目的是让学员培养驾驶技能与信心，而不是从 A 开到 B。用软件编程举例就是：*《用 Python 写一个简单的游戏》*。
 
-*The user will learn through what they do* - not because someone has tried to teach them.
+*用户通过实践行为习得知识*，而非基于他人的主动传授。
 
-In documentation, the special difficulty is that the instructor is condemned to be absent, and is not there to monitor the learner and correct their mistakes. The instructor must somehow find a way to be present through written instruction alone.
+技术文档的特殊难点在于：指导者注定缺席，无法在现场监督学习者并纠正错误。因此，指导者必须设法仅通过书面指导来完成教学。
 
 
-How-to guides
+操作指南
 -------------
 
 ..  sidebar::
    
-    * :ref:`How-to guides in more detail <how-to>`
+    * :ref:`操作指南的更多细节 <how-to>`
 
-**A how-to guide addresses a real-world goal or problem**, by providing practical directions to help the user who is in that situation. 
+一篇操作指南通过提供切实可行的指示来帮用户 **在现实中解决问题或是实现目标。**
 
-A how-to guide always addresses an already-competent user, who is expected to be able to use the guide to help them get their work done. In contrast to a tutorial, a how-to guide is concerned with *work* rather than *study*. 
+操作指南始终面向具备相应能力的用户，要求他们能够借助指南完成工作任务。与教程不同，操作指南针对的是 *完成具体任务* 而非 *学习研究*。
 
-A how-to guide might be: *How to store cellulose nitrate film* (in motion picture photography) or *How to configure frame profiling* (in software). Or even: *Troubleshooting deployment problems*.
+操作指南可以是： *《如何存储硝酸纤维素胶片》*（针对电影摄影领域），或 *《如何配置帧性能分析》*（针对软件领域），甚至是 *《部署问题故障排除》*。
 
 
-Reference
+参考手册
 ---------
 
 ..  sidebar::
    
-    * :ref:`Reference in more detail <reference>`
+    * :ref:`参考手册的更多细节 <reference>`
 
-**Reference guides contain the technical description** - facts - that a user needs in order to do things correctly: accurate, complete, reliable information, free of distraction and interpretation. They contain *propositional or theoretical knowledge*, not guides to action.
+**参考手册包含用户正确操作所需的技术性描述** ——即客观事实：准确、完整、可靠，没有干扰性内容与主观阐释的信息。此类文档提供 *描述性知识或理论性知识*，而非行为指导。
 
-Like a how-to guide, reference documentation serves the user who is at *work*, and it's up to the user to be sufficiently competent to interpret and use it correctly.
+类似操作指南，参考手册服务那些正在 *完成具体任务* 的用户，用户需要具备足够的能力去正确解读和使用手册。
 
-*Reference material is neutral.* It is not concerned with what the user is doing. A marine chart could be used by a ship's navigator to plot a course, but equally well by a prosecuting magistrate in a legal case.
+*参考手册是中立的。* 它不关心用户用它做什么。一张海图既可供船舶导航员规划航线，也同样能用于检察官的案件审理。
 
-Where possible, the architecture of reference documentation should reflect the structure or architecture of the thing it's describing - just like a map does. If a method is part of a class that belongs to a certain module, then we should expect to see the same relationship in the documentation too.  
+参考文档的架构应尽可能映射其所描述对象的结构或架构 - 就像地图那样。如果一个方法属于某个类而该类位于特定模块中，那么我们在文档中也应看到相同的层级关系。
 
 
-Explanation
+概念解析
 -----------
 
 ..  sidebar::
    
-    * :ref:`Explanation in more detail <explanation>`
-    * :ref:`Understanding the difference between reference and explanation <reference-explanation>`
+    * :ref:`概念解析的更多细节 <explanation>`
+    * :ref:`了解参考手册与概念解析的区别 <reference-explanation>`
 
 
-**Explanatory guides provide context and background.** They serve the need to understand and put things in a bigger picture. Explanation joins things together, and helps answer the question *why?*
+**概念解析提供上下文和背景知识。** 它们旨在帮助读者理解全局脉络，将知识点串联成体系。概念解析能够整合信息碎片，重点解答 *为什么* 的问题。
 
-Explanation often needs to circle around its subject, and approach it from different directions. It can contain opinions and take perspectives.
+概念解析往往需要围绕主题展开，并从不同角度切入。它可以包含观点并采取特定视角。
 
-Like reference, explanation belongs to the realm of propositional knowledge rather than action. However its purpose is to serve the user's study - as tutorials do - and not their work.
+正如参考手册，概念解析属于命题性知识领域而非行动。然而其目的在于服务用户的学习研究——如教程所做的那样——而非服务于完成具体任务。
 
-Often, writers of tutorials who are anxious that their students should *know* things overload their tutorials with distracting and unhelpful explanation. It would be much more useful to give the learner the most minimal explanation ("Here, we use HTTPS because it's safer") and then link to an in-depth article (*Secure communication using HTTPS encryption*) for when the user is ready for it.
+文档作者通常因认为读者需要 *知道* 某些知识，而在教程中堆砌过多分散注意力且无用的概念解析。其实更有效的做法是：提供最简明的概念解析（例如：“这里我们使用 HTTPS 是因为它更安全”），然后链接到一篇深入探讨的文章（如 *《使用 HTTPS 加密实现安全通信》*），供用户需要时自行查阅。
 
 
 -----------
 
-The Diátaxis map
+Diátaxis 图谱
 ================
 
-The four kinds of documentation and the relationships between them can be summarised in the Diátaxis map. 
+四种文档类型及其相互关系可通过 Diátaxis 图谱进行总结。
 
 ..  sidebar::
    
-    * :ref:`The map in more detail <map>`
+    * :ref:`图谱的更多细节 <map>`
 
-Diátaxis is not just a list of four different things, but a conceptual arrangement of them. It shows how the four kinds of documentation are related to each other, and distinct from each other.
+Diátaxis 不仅仅是四种文档类型的简单罗列，而是一种概念层面的系统性编排。它既揭示了教程、操作指南、参考手册与概念解析这四类文档之间的内在关联，也明晰了它们彼此间的本质区别。
 
-Crossing or blurring the boundaries described in the map is at the heart of a vast number of problems in documentation. 
+跨越或模糊地图中描述的边界，正是文档领域中大量问题的核心所在。
 
 .. image:: /images/diataxis.png
    :alt: Diátaxis
@@ -108,32 +108,32 @@ Crossing or blurring the boundaries described in the map is at the heart of a va
 
 -----------
 
-The Diátaxis compass
+Diátaxis 罗盘
 ====================
 
-As you can see from the map:
+从图谱中可以看出：
 
-* tutorials and how-to guides are concerned with what the user *does* (**action**)
-* reference and explanation are about what the user *knows* (**cognition**)
+* 教程和操作指南侧重于用户 *做* 了什么 (**行为**)
+* 参考手册和概念解析侧重于用户 *所知内容* (**认知**)
 
-On the other hand: 
+另一方面: 
 
-* tutorials and explanation serve the *acquistion* of skill (the user's **study**)
-* how-to guides and reference serve the *application* of skill (the user's **work**)
+* 教程和操作指南服务于技能 *获取* (即用户的 **学习**)
+* 参考手册和概念解析服务于技能 *应用* (即用户的 **工作**)
 
-But a map doesn't tell you what to *do* - it's reference. To guide your action you need a different sort of tool, in this case, a kind of Diátaxis compass.
+但图谱不告诉你具体如何 *做* - 它只是参考。要知道如何做你需要另一种工具，即 Diátaxis 罗盘。
 
 ..  sidebar::
    
-    * :ref:`The compass in more detail <compass>`
+    * :ref:`罗盘的更多细节 <compass>`
 
-The compass is useful in two different ways.
+罗盘在两种不同场景下具有实用价值。
 
-When creating documentation, it helps clarify your own intentions, and helps make sure you're actually doing what you think you're doing.
+创建文档时，它能帮助厘清创作意图，确保实际工作与预期目标保持一致。
 
-When looking at documentation, it helps understand what's going on in it, and makes problems stand out.
+查阅文档时，它有助于理解文档的内在逻辑，并使潜在问题得以凸显。
 
-The compass is not nearly as eye-catching as the map, but when you're at work puzzling over a documentation problem it's what will help you move forward.
+罗盘虽不如地图那样引人注目，但当您深陷文档难题时，它将成为推动问题解决的关键工具。
 
 .. list-table::
    :widths: 33 33 34
@@ -141,63 +141,63 @@ The compass is not nearly as eye-catching as the map, but when you're at work pu
    :stub-columns: 0
    :class: wider
 
-   * - If the content...
-     - ...and serves the user's...
-     - ...then it must belong to...
-   * - informs action
-     - acquisition of skill
-     - a tutorial
-   * - informs action
-     - application of skill
-     - a how-to guide
-   * - informs cognition
-     - application of skill
-     - reference
-   * - informs cognition
-     - acquisition of skill
-     - explanation
+   * - 当内容...
+     - ...并且服务于...
+     - ...那它一定属于...
+   * - 影响行为
+     - 获取技能
+     - 教程
+   * - 影响行为
+     - 使用技能
+     - 操作指南
+   * - 影响认知
+     - 使用技能
+     - 参考手册
+   * - 影响认知
+     - 获取技能
+     - 概念解析
 
 
 
 -----------
 
-Working
+实施
 =======
 
-There is a very simple workflow for Diátaxis.
+Diátaxis 的工作流非常简单
 
 ..  sidebar::
    
     :ref:`how-to-use-diataxis`
 
-1. Consider what you see in the documentation, in front of you right now (which might be literally nothing, if you haven't started yet).
+1. 思考一下你在面前这篇文档中看到什么样的内容（如果你才开始写，可能什么内容都没有）。
 
-2. Ask: *is there any way in which it could be improved?*
+2. 问自己： *是否有改进的空间？*
 
-3. Decide on *one* thing you could do to it right now, however small, that would improve it.
+3. 立刻决定 *一件* 你现在就能为它做的事，哪怕再小，只要能改进它。
 
-4. Do that thing. 
+4. 做那件事。
 
-And then repeat. 
+然后重复上述步骤。
 
-That's it. 
+就这么简单。
 
 
 -----------
 
-Do what you like
+做你想做的
 ================
 
-You can do what you like with Diátaxis. You don't have to believe in it and there is no exam. It is a wholly pragmatic approach. I think it's *true*, but what matters is that it actually helps people create better documentation. If you find one idea or insight in it that seems to be worthwhile, help yourself to that.
+关于 Diátaxis，你完全可以随心所欲地使用它。不必将其奉为圭臬，更无需考试检验。它本质上是一种彻底的实用主义方法。我个人认为它 *行之有效*，但关键在于它真能帮助人们写出更优质的文档 ——— 如果你从中发现任何值得借鉴的理念或见解，尽管取用便是。
 
-There is an extensively elaborated theory around Diátaxis, but you don't need to subscribe to it, or even read about it. Diátaxis doesn't require a commitment to pursue it to a final end. 
+虽然围绕 Diátaxis 已发展出一套宏大的理论体系，但你无需全盘接受它，甚至不必阅读相关论述。Diátaxis 不要求你必须贯彻到底。
 
-You can do just one thing, right now, and even if you do nothing else ever after, you will at least have made that one improvement. (In practice what you will find is that each thing you do will give you a clue as to the next thing to do - you only need to keep doing them.)
+你只需要现在就做一件事，哪怕从此以后你不再做任何事，至少你已经完成了这一项改善。（实际上你会发现，每做一件事都会为你指明下一步的方向 ——— 你只需要持续行动。）
 
 
-Get started
+立即开始
 ===========
 
-At this point, you have read everything you need to get started with Diátaxis. 
+此时，你已经掌握了开始使用 Diátaxis 所需的一切知识。
 
-You can read more if you want, and eventually you probably should, but *you will get the most value from the guidance in this website when you turn to it with a problem or a question*. That's when it comes alive. 
+如果你还想了解更多，当然也可以继续阅读， *但这份网站指引最能派上用场的时刻，是你带着具体问题或困惑前来查阅的时候* ——— 那才是它真正发挥价值的时刻。

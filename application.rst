@@ -1,32 +1,32 @@
-Applying Diátaxis
+运用 Diátaxis
 =================
 
 
-The pages in this section are concerned with putting Diátaxis into practice. 
+本节内容主要阐述如何将 Diátaxis 框架付诸实践。
 
 ..  sidebar:: 
     
-    Diátaxis is underpinned by :doc:`systematic theoretical principles <theory>`, but understanding them is not necessary to make effective use of the system. 
+   Diátaxis 由 :doc:`系统的理论原则 <theory>` 奠定基础，但使用者无需理解这些理论就能有效运用该框架。
 
-Diátaxis is primarily intended as a pragmatic approach for people working on documentation. Most of the key principles required to put it into practice successfully can be grasped intuitively. 
+Diátaxis 主要是一种面向文档工作者的实用方法。凭直觉即可理解其成功应用所需的大部分核心原则。
 
-Don't wait to understand Diátaxis before you start trying to put it into practice. Not only do you not need to understand it all to make use of it, you will not understand it until you have started using it (this itself is a Diátaxis principle).  
+不必等到理解 Diátaxis 才开始着手实践。你不仅无需完全理解即可实践，而且只有在开始实践后才能真正理解（这本身就是Diátaxis原则的体现）。
 
-As soon as you feel you have picked up an idea that seems worth applying to your work, try applying it. Come back here when you need more clarity or reassurance. Iterate between your work and reflecting on your work.
+一旦你觉得某个想法值得一试，就立刻应用到工作中。需要进一步厘清思路或寻求支持时再回到这里。在实践与反思之间不断切换。
 
 ----------------
 
-In this section
+本节内容
 ----------------
 
-At the core of Diátaxis are the four different kinds of documentation it identifies. If you're encountering Diátaxis for the first time, start with these pages. 
+Diátaxis 框架的核心在于它所划分的四种不同类型文档。如果你是初次接触 Diátaxis，建议你从以下页面开始阅读。 
 
-* :doc:`tutorials` - learning-oriented experiences
-* :doc:`how-to-guides` - goal-oriented directions
-* :doc:`reference` - information-oriented technical description
-* :doc:`explanation` - understanding-oriented discussion 
+* :doc:`tutorials` - 以学习为导向的实践路径
+* :doc:`how-to-guides` - 以目标为导向的流程指引
+* :doc:`reference` - 以信息为导向的技术说明
+* :doc:`explanation` - 以理解为导向的深度探讨
 
-Diátaxis prescribes principles that guide action. These translate into particular ways of working, with implications for documentation process and execution. Once you've made your first start, the tools and methods outlined here will help smooth your way.
+Diátaxis 制定了指导实践的原则体系，这些原则转化为具体的工作方法，并对文档流程与执行产生直接影响。在完成初步实践后，本文所述的工具与方法将助您畅通前行。
 
-* :doc:`compass` - a simple tool for direction-finding
-* :doc:`Workflow <how-to-use-diataxis>` in Diátaxis 
+* :doc:`compass` - 找方向用的简易工具
+* :doc:`工作流 <how-to-use-diataxis>` Diátaxis 

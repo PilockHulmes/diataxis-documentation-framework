@@ -1,6 +1,6 @@
 .. _compass:
 
-The compass
+罗盘
 =======================
 
 .. image:: /images/diataxis.png

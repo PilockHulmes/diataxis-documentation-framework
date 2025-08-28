@@ -44,15 +44,16 @@
           {%- endtrans %}
         {%- else %}
           {% trans copyright=copyright|e -%}
-            Copyright &#169; {{ copyright }}
+          版权所有 &#169; {{ copyright }}
           {%- endtrans %}
         {%- endif %}
+        &nbsp;&nbsp;&nbsp;&nbsp;翻译者：PilockHulmes & Deepseek (
       </div>
       {%- endif %}
 
       {%- if last_updated -%}
       <div class="last-updated">
-        {% trans last_updated=last_updated|e -%}
+        {% trans last_updated=last_updated|e -%} 
           Last updated on {{ last_updated }}
         {%- endtrans -%}
       </div>

@@ -1,6 +1,6 @@
 .. _how-to-use-diataxis:
 
-Diátaxis as a guide to work
+Diátaxis 作为工作指南
 ===========================
 
 As well as providing a guide to documentation content, Diátaxis is also a guide to documentation process and execution. 

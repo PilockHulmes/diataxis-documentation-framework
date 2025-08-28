@@ -1,4 +1,4 @@
-Colophon
+后记
 ========
 
 Diátaxis is the work of `Daniele Procida <https://vurt.eu>`_.

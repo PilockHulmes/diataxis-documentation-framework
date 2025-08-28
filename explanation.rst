@@ -1,6 +1,6 @@
 .. _explanation:
 
-Explanation
+概念解析
 ===========
 
 ..  rubric:: Explanation is a discursive treatment of a subject, that permits *reflection*. Explanation is

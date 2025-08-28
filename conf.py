@@ -21,7 +21,6 @@ html_title = full_title = project = "Diátaxis"
 copyright = "Daniele Procida"
 author = "Daniele Procida"
 
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
