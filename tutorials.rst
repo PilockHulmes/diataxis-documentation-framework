@@ -187,71 +187,71 @@
 表面上看，持续聚焦具体细节似乎剥夺了学生认知或把握更宏观通用模式的机会，但事实恰恰相反。我们的大脑有一项非凡能力，就是从具体实例中感知泛化模式。所有学习都遵循同一方向：从具体特例出发，逐步迈向通用抽象。后者 *必将* 从前者的土壤中自然涌现。
 
 
-Ignore options and alternatives
+忽略选项与替代方案
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Your job is to guide the learner to a successful conclusion. There may be many interesting diversions along the way (different options for the command you're using, different ways to use the API, different approaches to the task you're describing) - ignore them. *Your guidance needs to remain focused on what's required to reach the conclusion*, and everything else can be left for another time.
+您的职责是引导学习者达成最终目标。过程中可能会出现许多有趣的干扰项（当前使用命令的其他选项、API的不同调用方式、任务描述的其他实现路径）——请一律忽略。 *您的指导必须始终聚焦于达成结论所需的要点*，其余内容均可留待后续处理。
 
-Doing this helps keep your tutorial shorter and crisper, and saves both you and the reader from having to do extra cognitive work.
+这样做有助于保持教程简洁明了，避免您和读者承受额外的认知负担。
 
 
-Aspire to perfect reliability
+追求完美的可靠性
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-All of the above are general principles of pedagogy, but there is a special burden on the creator of a tutorial. 
+上述内容均为教学法的通用原则，但教程创作者还额外肩负着一项特殊责任。
 
-A tutorial must inspire confidence. Confidence can only be built up layer by layer, and is easily shaken. At every stage, when you ask your student to do something, they must see the result you promise. A learner who follows your directions and doesn't get the expected results will quickly lose confidence, in the tutorial, the tutor and themselves.
+教程必须能激发信心。信心只能层层累积，并且极易被动摇。在每个教学阶段，当您要求学生完成某项任务时，他们必须看到您所承诺的结果。若学习者遵循您的指引却未能获得预期结果，其对于教程、指导者及自身的信心将迅速瓦解。
 
 ..  sidebar::
 
-    You are required to be present, but condemned to be absent. 
+    您必须身临现场，却注定缺席。
 
-A teacher who's there with the learner can rescue them when things go wrong. In a tutorial, you can't do that. Your tutorial ought to be so well constructed that things *can't* go wrong, that your tutorial works for every user, every time.
+当学习者遇到问题时，现场教师可以及时施以援手。但在教程中，您无法做到这一点。因此您的教程必须构建得足够完善，确保任何情况下都 *不会* 出错，让每位用户每次使用都能获得预期效果。
 
-It's hard work to create a reliable experience, but that is what you must aspire to in creating a tutorial.
+打造可靠的体验绝非易事，但这正是创作教程时必须追求的目标。
 
-Your tutorial will have flaws and gaps, however carefully it is written. You won't discover them all by yourself, you will have to rely on users to discover them for you. The only way to learn what they are is by finding out what actually happens when users do the tutorial, through extensive testing and observation.
+您的教程无论编写得多么谨慎，仍会存在缺陷与疏漏。您无法独自发现所有问题，必须依靠用户反馈来帮您揭示它们。了解这些问题的唯一途径，就是通过大量测试与观察，掌握用户实际操作教程时发生的真实情况。
 
 
 ==============
 
-The language of tutorials
+教程用语
 -------------------------
 
-We ...
-    The first-person plural affirms the relationship between tutor and learner: you are not alone; we are in this together. 
-In this tutorial, we will ...
-    Describe what the learner will accomplish.
-First, do x. Now, do y. Now that you have done y, do z.
-    No room for ambiguity or doubt.
-We must always do x before we do y because... (see Explanation for more details).
-    Provide minimal explanation of actions in the most basic language possible. Link to more detailed explanation.
-The output should look something like ...
-    Give your learner clear expectations.
-Notice that ... Remember that ... Let's check ...
-    Give your learner plenty of clues to help confirm they are on the right track and orient themselves.
-You have built a secure, three-layer hylomorphic stasis engine...
-    Describe (and admire, in a mild way) what your learner has accomplished.
+我们...
+    第一人称复数"我们"确立了导师与学习者的联结关系：您并非孤军奋战，我们始终同行。
+在本教程中，我们将...
+    描述学习者将完成的任务。
+首先，执行x。接着，执行y。完成y后，继续执行z。
+    不容任何歧义或疑问。
+在执行y之前，我们必须始终先执行x，因为...（详见概念解析部分）。
+    用最简明的语言提供操作说明。为详细概念解析请提供链接。
+输出内容应类似于...
+    为学习者明确预期目标。
+请注意... 请记住... 让我们检查...
+    为学习者提供充分的线索，帮助他们确认方向正确并明确自身定位。
+您已构建完成一个安全的三层异质休眠引擎...
+    描述（并适度赞赏）您的学习者所取得的成就。
 
 
 ===============
 
-Applied to food and cooking
+应用于食品与烹饪
 ---------------------------
 
 ..  image:: /images/anselmo.jpg
     :alt: A child proudly showing a dish he has helped prepare
 
-Someone who has had the experience of teaching a child to cook will understand what matters in a tutorial, and just as importantly, the things that don't matter at all.
+有过教孩子烹饪经验的人会明白教程中什么才是关键，同样重要的是，哪些内容根本无关紧要。
 
-It really doesn't matter what the child makes, or how correctly they do it. The value of a lesson lies in what the child gains, not what they produce.
+孩子制作了什么或做得是否正确并不重要。课程的价值在于孩子收获了什么，而非他们产出了什么。
 
-Success in a cooking lesson with a child is not the culinary outcome, or whether the child can now repeat the processes on their own. Success is when the child acquires the knowledge and skills you were hoping to impart. 
+与孩子共同完成烹饪教程的成功标准，不在于成品效果或孩子能否独立复现操作流程，而在于其是否掌握了您期望传授的知识与技能。
 
-It's a crucial condition of this that the child discovers pleasure in the experience of being in the kitchen with you, and wants to return to it. Learning a skill is never a once and for all matter. Repetition is always required. 
+关键前提在于孩子能享受与您共处厨房的体验，并愿意持续参与其中。技能学习绝非一蹴而就，反复实践始终不可或缺。 
 
-Meanwhile, the cooking lesson might be framed around the idea of learning how to prepare a particular dish, but what we actually need the child to learn might be things like: *that we wash our hands before handling food*; *how to hold a knife*; *why the oil must be hot*; *what this utensil is called*, *how to time and measure things*. 
+与此同时，烹饪教程可能以学习制作特定菜肴为框架，但我们真正需要孩子掌握的应该是： *处理食材前要洗手*； *如何握持刀具*； *为何油必须烧热*； *所使用厨具的名称*； *如何计时和以及称量材料*。
 
-The child learns all this by working alongside you in the kitchen; in its own time, at its own pace, **through the activities** you do together, and not from the things you say or show.
+孩子通过 **共同参与厨房活动**，在与您协作的过程中自然而然地掌握这些技能——他们按照自己的节奏、用适合自己的方式，从亲身实践中而非您的言语示范里获得成长。
 
-With a young child, you will often find that the lesson suddenly has to end before you'd completed what you set out to do. This is normal and expected; children have short attention spans. But as long as the child managed to achieve something - however small - and enjoyed doing it, it will have laid down something in the construction of its technical expertise, that can be returned to and built upon next time.
+当孩子年龄较小时，您常会发现教程不得不突然中断——远早于您预设的完成节点。这完全正常且可预见，因为儿童的注意力持续时间本就有限。但只要孩子成功完成了某件事——无论多微小——并乐在其中，这就会在其技术专长的构建过程中奠定基础，成为下次可回溯并进一步拓展的起点。

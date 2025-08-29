@@ -3,94 +3,90 @@
 操作指南
 =============
 
-..  rubric:: How-to guides are **directions** that guide the reader through a problem or towards a result. How-to guides are **goal-oriented**.
+..  rubric:: 操作指南是通过 **步骤指引** 带领读者解决问题或实现结果的指导性文档，其本质是 **以目标为导向** 的实用说明。
 
 ===========
 
-A how-to guide helps the user get something done, correctly and safely; it guides the user's *action*. 
+操作指南帮助用户正确且安全地完成某项任务；它引导用户的 *行为*。
 
-It's concerned with *work* - navigating from one side to the other of a real-world problem-field.
+它关注的是*实际工作*——如何在实际问题领域中实现从一端到另一端的导航。
 
 ..  image:: /images/overview-how-to.png
     :alt: How-to guides - task oriented, practical steps, that serve our work
     :class: sidebar
 
-Examples could be: *how to calibrate the radar array*; *how to use fixtures in pytest*; *how to configure
-reconnection back-off policies*. On the other hand, *how to build a web application* is not - that's not
-addressing a specific goal or problem, it's a vastly open-ended sphere of skill.
+例如： *如何校准雷达阵列*； *如何在 pytest 中使用 fixture*； *如何配置重连退避策略*。另一方面， *如何构建 Web 应用程序* 则不属于此类——这并未针对特定目标或问题，而是一个极度开放式的技能领域。
 
-How-to guides matter not just because users need to be able to accomplish things: the list of how-to guides in your
-documentation helps frame the picture of what your product can actually *do*. A rich list of how-to guides is an
-encouraging suggestion of a product's capabilities.
+操作指南的重要性不仅在于用户需要完成任务：文档中的操作指南清单有助于勾勒出产品实际 *功能* 的图景。丰富的操作指南列表能有效暗示产品的能力范围。
 
-Well-written how-to guides that address the right questions are likely to be the most-read sections of your documentation.
+针对正确问题撰写的优质操作指南，往往会成为文档中被阅读最频繁的部分。
 
 =================
 
-How-to guides addressed to problems
+操作指南针对具体问题
 -----------------------------------
 
-**How-to guides must be written from the perspective of the user, not of the machinery.** A how-to guide represents something that someone needs to get done. It's defined in other words by the needs of a user. Every how-to guide should answer to a human project, in other words. It should show what the human needs to do, with the tools at hand, to obtain the result they need. 
+**操作指南必须从用户视角而非机器视角编写**。操作指南代表用户需要完成的具体任务，换言之，其内容应由用户需求定义。每篇操作指南都应服务于用户的实际项目，明确展示用户如何利用现有工具达成目标结果。
 
-This is in strong contrast to common pattern for how-to guides that often prevails, in which how-to guides are defined by operations that can be performed with a tool or system. The problem with this latter pattern is that it offers little value to the user; it is not addressed to any need the user has. Instead, it's focused on the tool, on taking the machinery through its motions.
+这与当前普遍存在的操作指南模式形成鲜明对比——后者通常将操作指南定义为针对某个工具或系统可执行的操作步骤。这种模式的弊端在于它几乎无法为用户创造实际价值。这些指南并未针对用户的任何实际需求。相反，它们聚焦于工具本身，机械性地演示操作流程。
 
-This is fundamentally a distinction of *meaningfulness*. Meaning is given by purpose and need. There is no purpose or need in the functionality of a machine. It is merely a series of causes and effects, inputs and outputs. 
+这本质上是一种 *意义性* 的区分。意义由目的和需求赋予。机器的功能运作中不存在目的或需求，它仅仅是因果链条的输入与输出。
 
-Consider:
+考虑以下示例：
 
-* "To shut off the flow of water, turn the tap clockwise."
-* "To deploy the desired database configuration, select the appropriate options and press **Deploy**."
-
-..  sidebar:: 
-    
-    We really do not need to be informed that we turn on a device using the power switch, but it is shocking how often how-to guides in software documentation are written at this level.
-
-The examples above *look* like examples of guidance, but they are not. 
-
-They represent mostly useless information that anyone with basic competence - anyone who is working in this domain - should be expected to know. Between them, standardised interfaces and generally-expected knowledge should make it quite clear what effect most actions will have. 
-
-Secondly, they are disconnected from purpose. What the user needs to know might be things like:
-
-* how much water to run, and how vigorously to run it, for a certain purpose
-* what database configuration options align with particular real-world needs
+* "为了关闭水流，请顺时针旋转水龙头。"
+* "要部署所需的数据库配置，请选择相应选项并点击 **部署**。"
 
 ..  sidebar:: 
     
-    How-to guides are about goals, projects and problems, not about tools. 
+    我们确实不需要被告知如何用电源开关启动设备，但令人震惊的是，软件文档中的操作指南却常常停留在这个水平。
+
+上文的示例 *看似* 属于操作指南，实则并非如此。
+
+这些内容大多属于无用信息——任何具备基础能力的人（即在该领域工作的人员）都应掌握这些常识。标准化接口与普遍预期知识相结合，应当能清晰呈现大多数操作的实际效果。
+
+其次，它们与使用目的脱节。用户真正需要了解的信息可能包括：
+
+* 针对特定用途，应调节多大的水流强度及水量
+* 哪些数据库配置选项符合实际业务需求
+
+..  sidebar:: 
     
-Tools appear in how-to guides as incidental bit-players, the means to the user's end. Sometimes of course, a particular end is closely aligned with a particular tool or part of the system, and then you will find that a how-to guide indeed concentrates on that. Just as often, a how-to guide will cut across different tools or parts of a system, joining them up together in a series of activities defined by something a human being needs to get done. In either case, it is that project that defines what a how-to guide must cover.
+    操作指南应聚焦目标、项目与问题，而非工具本身。
+    
+工具在操作指南中往往作为辅助角色出现，是实现用户目标的途径。当然，当特定目标与特定工具或系统组件紧密关联时，您会发现该操作指南确实会重点讨论该工具。同样常见的是，操作指南会横跨系统中的不同工具或组件，通过一系列由用户需求定义的操作将它们串联起来。无论是哪种情况，操作指南的覆盖范围都由具体项目需求决定。
 
 
 =================
 
-What how-to guides are not
+操作指南的边界定义
 --------------------------
 
-**How-to guides are wholly distinct from tutorials**. They are often confused, but the user needs that they serve are quite different. Conflating them is at the root of many difficulties that afflict documentation. See :ref:`tutorials-how-to` for a discussion of this distinction.
+**操作指南与教程截然不同**。 尽管常被混淆，但二者服务的用户需求存在本质差异。将两者混为一谈正是导致文档问题的根源所在。关于这一区别的详细讨论，请参阅 :ref:`tutorials-how-to` 这一节。
 
-In another confusion, how-to guides are often construed merely as procedural guides. But solving a problem or accomplishing a task cannot always be reduced to a procedure. Real-world problems do not always offer themselves up to linear solutions. The sequences of action in a how-to guide sometimes need to fork and overlap, and they have multiple entry and exit-points. Often, a how-to guide will need the user to rely on their judgement in applying the guidance it can provide.
+另一个常见的误解是将操作指南简单等同于流程说明。但解决问题或完成任务并非总能简化为线性流程，现实问题往往不适用于按部就班的解决方案。操作指南中的动作序列有时需要分叉和重叠，并且具有多个入口点和出口点。通常，操作指南需要用户依靠自身判断来应用其提供的指导。
     
 
 =================
 
-Key principles
+核心原则
 ---------------------------------------
 
-A how to-guide is concerned with work - a task or problem, with a practical goal. *Maintain focus on that goal*. 
+操作指南聚焦于具体工作——以解决任务或问题为导向， *始终围绕实践目标展开*。
 
-..  sidebar:: How-to characteristics
+..  sidebar:: 操作指南特性
 
-    * focused on tasks or problems
-    * assume the user knows what they want to achieve
-    * action and only action
-    * no digression, explanation, teaching
+    * 聚焦任务或问题
+    * 假设用户明确目标
+    * 仅呈现操作步骤
+    * 杜绝偏离、概念解析或教学
 
-Anything else that's added distracts both you and the user and dilutes the useful power of the guide. Typically, the temptations are to explain or to provide reference for completeness. Neither of these are part of guiding the user in their work. They get in the way of the action; if they're important, link to them.
+任何额外添加的内容都会分散您和用户的注意力，削弱指南的实用价值。常见的诱惑是进行概念解析或为了完整性提供参考内容。这些都不属于引导用户完成工作的范畴。它们会阻碍实际操作；如果确实重要，请以链接形式提供。
 
-A how-to guide serves the work of the already-competent user, whom you can assume to know what they want to do, and to be able to follow your instructions correctly.
+操作指南服务于已具备能力的用户，这类用户明确知晓自身需求，并能准确遵循您的指引执行操作。
 
 
-Address real-world complexity
+应对现实复杂性
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **A how-to guide needs to be adaptable to real-world use-cases**. One that is useless for any purpose except *exactly* the narrow one you have addressed is rarely valuable. You can't address every possible case, so you must find ways to remain open to the range of possibilities, in such a way that the user can adapt your guidance to their needs.
