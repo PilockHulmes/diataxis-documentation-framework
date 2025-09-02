@@ -3,153 +3,140 @@
 概念解析
 ===========
 
-..  rubric:: Explanation is a discursive treatment of a subject, that permits *reflection*. Explanation is
-    **understanding-oriented**.
+..  rubric:: 概念解析是对主题的论述性阐述，能促发*反思*。概念解析是**以理解为导向**的。
 
 ===========
 
-Explanation deepens and broadens the reader's understanding of a subject. It brings clarity, light and context.
+概念解析能深化和拓宽读者对某个主题的理解。它能阐明事实、带来启发和解读背景。
 
 ..  image:: /images/overview-explanation.png
     :alt: Explanation - understanding oriented, theoretical knowledge, that serves our study
     :class: sidebar
 
-The concept of *reflection* is important. Reflection occurs *after* something else, and depends on something else, yet at the same time brings something new - shines a new light - on the subject matter.
+*反思*这一概念至关重要。反思发生在其他事物 *之后*，且依赖于其他事物，但同时又为主题带来新的视角——如同投下一束新的光芒。
 
-The perspective of explanation is higher and wider than that of the other three types. It does not take the user's eye-level view, as in a how-to guide, or a close-up view of the machinery, like reference material. Its scope in each case is a topic - "an area of knowledge", that somehow has to be bounded in a reasonable, meaningful way.
+概念解析的视角比其他三种类型更高更广。它不像操作指南那样采用用户的平视视角，也不像参考手册那样聚焦于机械细节。在每种情况下，其范围都是一个主题——"某个领域的知识"，且必须以合理而有意义的方式划定边界。
 
-For the user, explanation joins things together. It's an answer to the question: *Can you tell me about ...?*
+对用户而言，概念解析能将事物串联起来。它是对 *“能否介绍一下...？”* 这类问题的回答。
 
-It's documentation that it makes sense to read while away from the product itself (one could say, explanation is the only kind of documentation that it might make sense to read in the bath).
+这类文档适合在远离产品本身时阅读（可以说，概念解析是唯一一种适合泡澡时阅读的文档类型）。
 
 ===========
 
-The value and place of explanation
+概念解析的价值与定位
 ----------------------------------
 
-Explanation and understanding
+概念解析与理解
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Explanation  is characterised by its distance from the active concerns of the practitioner. It doesn't have direct implications for what they do, or for their work. This means that it's sometimes seen as being of lesser importance. That's a mistake; it may be less *urgent* than the other three, but it's no less *important*. It's not a luxury. No practitioner of a craft can afford to be without an
-understanding of that craft, and needs the explanatory material that will help weave it together.
 
-..  sidebar:: Explanation by any other name
+概念解析的特点在于其与实践者当下关注事项的疏离性。它不会直接影响到实践者的具体操作或实际工作，因此有时被视为次要内容。这是个误解，概念解析可能不如其他三类文档 *紧迫*，但其 *重要性* 毫不逊色。它绝非可有可无。任何领域的实践者都不能缺乏对该领域的理解，他们需要概念解析性材料来帮助构建知识体系。
 
-    Your explanation documentation doesn't need to be called *Explanation*. Alternatives include:
+..  sidebar:: 概念解析的别名
 
-    * *Discussion*
-    * *Background*
-    * *Conceptual guides*
-    * *Topics*
+    您的说明文档不必命名为"概念解析"。其他可选名称包括：
 
-The word *explanation* - and its cognates in other languages - refer to *unfolding*, the revelation of what is hidden in the folds. So explanation brings to the light things that were implicit or obscured.
+    * *讨论*
+    * *背景知识*
+    * *概念指导*
+    * *专题解析*
 
-Similarly, words that mean *understanding* share roots in words meaning to hold or grasp (as in *comprehend*). That's an important part of understanding, to be able to hold something or be in possession of it. Understanding seals together the other components of our mastery of a craft, and makes it safely our own.
+*概念解析* 一词及其在其他语言中的同源词，都指向 *展开* 这一概念——即揭示隐藏在褶皱中的内容。因此，概念解析的作用在于将那些隐含或模糊的事物清晰地呈现出来。
 
-Understanding doesn't *come from* explanation, but explanation is required to form that web that helps hold
-everything together. Without it, the practitioner's knowledge of their craft is loose and fragmented and fragile, and
-their exercise of it is *anxious*.
+同样地，表示 *理解* 的词语与表示"掌握"或"抓住"的词根同源（如comprehend中的"hend"）。这是理解的关键要素——能够把握或拥有某事物。理解将我们掌握一门技艺的其他组成部分紧密联结，使其真正成为我们自己的知识。
+
+理解并非 *源于* 概念解析，但概念解析能编织起支撑整个知识体系的网络。若缺乏概念解析，实践者对其技艺的认知将松散零碎且脆弱不堪，运用时也会充满 *不安*。
 
 
-Explanation and its boundaries
+概念解析及其边界
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Quite often explanation is not explicitly recognised in documentation; and the idea that things need to be
-explained is often only faintly expressed. Instead, explanation tends to be scattered in small parcels in other
-sections.
+在技术文档中，概念解析往往未被明确标识；关于内容需要概念解析的理念，通常也只是隐约提及。相反，概念解析性内容往往以碎片化形式分散在其他章节中。
 
-It's not always easy to write good explanatory material. Where does one start? It's also not clear where to conclude.
-There is an open-endedness about it that can give the writer too many possibilities.
+撰写优质的概念解析性材料并非易事。从何处着手？又该在何处收尾？这种开放性特质往往让作者面临过多的可能性选择。
 
-Tutorials, how-to-guides and reference are all clearly defined in their scope by something that is also well-defined:
-by what you need the user to learn, what task the user needs to achieve, or just by the scope of the machine itself.
+教程、操作指南和参考手册的范畴都通过明确的标准清晰界定：取决于用户需要学习的内容、需要完成的任务，或是机器自身的功能范围。
 
-In the case of explanation, it's useful to have a real or imagined *why* question to serve as a prompt. Otherwise, you
-simply have to draw some lines that mark out a reasonable area and be satisfied with that.
+在撰写概念解析性内容时，最好能设定一个真实或假设的 *为什么* 问题作为引导。若不能，您只能尽量划定一个合理的范围边界。
 
 
 
 ==============
 
-Writing good explanation
+撰写优质的概念解析性内容
 -----------------------------------
 
-Make connections
+建立连接
 ~~~~~~~~~~~~~~~~
 
-When writing explanation you are helping to weave a web of understanding for your readers. **Make connections** to
-other things, even to things outside the immediate topic, if that helps.
+撰写概念解析时，您正在为读者编织理解之网。**建立关联**——即使是与当前主题无关的内容，只要有助于理解就应建立连接。
 
 
-Provide context
+提供上下文
 ~~~~~~~~~~~~~~~
 
-**Provide background and context in your explanation**: explain *why* things are so - design decisions, historical
-reasons, technical constraints - draw implications, mention specific examples.
+**在概念解析中提供背景和上下文**：说明 *为何* 如此——包括设计决策、历史原因、技术限制——阐述其影响，并列举具体示例。
 
 
-Talk *about* the subject
+探讨主题
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-..  sidebar:: Things to discuss
+..  sidebar:: 讨论要点
 
-    * the bigger picture
-    * history
-    * choices, alternatives, possibilities
-    * why: reasons and justifications
+    * 整体概况
+    * 历史背景
+    * 可选方案与可能性分析
+    * 原因与依据说明
 
-Explanation guides are *about* a topic in the sense that they are *around* it. Even the names of your explanation
-guides should reflect this; you should be able to place an implicit (or even explicit) *about* in front of each
-title. For example: *About user authentication*, or *About database connection policies*.
+概念解析指南的 *关于* 属性体现在其 *围绕* 主题展开的特性。即便是指南的命名也应反映这一特征——每个标题前都应能隐含（甚至显式地）加上 *关于* 二字。例如： *《关于用户认证》* 或 *《关于数据库连接策略》*。
 
 
-Admit opinion and perspective
+接纳观点与视角
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Opinion might seem like a funny thing to introduce into documentation. The fact is that all human activity and knowledge is invested within opinion, with beliefs and thoughts. The reality of any human creation is rich with opinion, and that needs to be part of any understanding of it.
+在技术文档中引入观点看似有些奇怪。但事实上，所有人类活动与知识都蕴含着观点、信念和思考。任何人造产物的本质都充满观点，这应当成为理解它的必要组成部分。
 
-Similarly, any understanding comes from a perspective, a particular stand-point - which means that other perspectives and stand-points exist. **Explanation can and must consider alternatives**, counter-examples or multiple different approaches to the same question.
+同样地，任何理解都源于特定视角和立场——这意味着必然存在其他视角与立场。 **概念解析能够且必须考量替代方案**、反例或针对同一问题的多种不同研究方法。
 
-In explanation, you're not giving instruction or describing facts - you're opening up the topic for consideration. It helps to think of explanation as discussion: discussions can even consider and weigh up contrary *opinions*.
+在概念解析过程中，您并非在提供指令或陈述事实，而是开启话题供读者思考。不妨将概念解析视为讨论：这种讨论甚至可以权衡对立的 *观点*。
 
 
-Keep explanation closely bounded
+保持概念解析的紧密边界
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-One risk of explanation is that it tends to absorb other things. The writer, intent on covering the topic, feels the urge to include instruction or technical description related to it. But documentation already has other places for these, and allowing them to creep in interferes with the explanation itself, and removes them from view in the correct place.
+概念解析存在一个风险：它往往会吞噬其他内容。作者在试图全面覆盖某个主题时，会产生纳入相关操作指南或技术描述的冲动。但文档中已有其他专门位置承载这些内容，若放任它们渗入概念解析部分，不仅会干扰概念解析本身，还会使这些内容无法在正确的位置被查阅到。
 
 
 ==============
 
-The language of explanation
+概念解析用语
 --------------------------------
 
-*The reason for x is because historically, y ...*
-    Explain.
-*W is better than z, because ...*
-    Offer judgements and even opinions where appropriate..
-*An x in system y is analogous to a w in system z. However ...*
-     Provide context that helps the reader.
-*Some users prefer w (because z). This can be a good approach, but...*
-    Weigh up alternatives.
-*An x interacts with a y as follows: ...*
-    Unfold the machinery's internal secrets, to help understand why something does what it does.
+*x 的原因是历史上 y 曾...*
+    解释
+*w 优于 z，因为...*
+    在适当情况下提供判断甚至观点。
+*系统 y 中的 x 类似于系统 z 中的 w。然而...*
+    提供有助于读者理解的上下文。
+*部分用户更倾向于使用 w（因为 z）。这种做法可能不错，但...*
+    权衡备选方案。
+*x 与 y 的交互方式如下：...*
+    揭开机械内部奥秘，帮助理解其运作原理。
 
 ================
 
-Analogy from food and cooking
+饮食烹饪的类比
 -----------------------------
 
 
-In 1984 `Harold McGee <https://www.curiouscook.com>`_ published *On food and cooking*.
+1984年， `Harold McGee <https://www.curiouscook.com>`_ 出版了 *《食物与烹饪》*。
 
 ..  image:: /images/mcgee.jpg
     :alt:
     :class: floated
 
-The book doesn't teach how to cook anything. It doesn't contain recipes (except as historical examples) and it isn't a work of reference. Instead, it places food and cooking in the context of history, society, science and technology. It explains for example why we do what we do in the kitchen and how that has changed.
+该书并非烹饪教程，也不包含具体食谱（仅作为历史案例呈现），更非操作指南或参考手册。其核心在于将饮食烹饪置于历史、社会、科技与技术的语境中，例如阐释厨房操作背后的原理及其演变过程。
 
-It's clearly not a book we would read *while* cooking. We would read when we want to reflect on cooking. It illuminates the subject by taking multiple different perspectives on it, shining light from different angles.
+这显然不是一本我们会 *在* 烹饪时阅读的书。我们会在想要反思烹饪时阅读它。它通过多重视角来阐释主题，从不同角度投射光芒。
 
-After reading a book like *On food and cooking*, our understanding is changed. Our knowledge is richer and deeper. What we have learned may or may not be immediately applicable next time we are doing something in the kitchen, but *it will change how
-we think about our craft, and will affect our practice*.
+阅读 *《食物与烹饪》* 这类书籍后，我们的认知会发生改变。知识储备变得更丰富、更深入。这些知识未必能在下次厨房实践中立即应用， *但它们将重塑我们对烹饪技艺的思考方式，并持续影响实际操作*。
