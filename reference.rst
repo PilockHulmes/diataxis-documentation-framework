@@ -3,134 +3,119 @@
 参考手册
 =========
 
-..  rubric:: Reference guides are **technical descriptions** of the machinery and how to operate it. Reference material is **information-oriented**.
+..  rubric:: 参考手册是对设备及其操作方式的**技术性描述**。参考资料具有**信息导向**特性。
 
 ===========
 
-Reference material contains *propositional or theoretical* knowledge that a user looks to in their *work*.
+参考资料包含用户在 *工作* 中需要查阅的 *命题性或理论性知识*。
 
-The only purpose of a reference guide is to describe, as succinctly as possible, and in an orderly
-way. Whereas the content of tutorials and how-to guides are led by needs of the user, reference
-material is led by the product it describes.
+参考手册的唯一目的是尽可能简洁且有条理地进行描述。教程和操作指南的内容由用户需求主导，而参考资料则由其描述的产品主导。
 
 ..  image:: /images/overview-reference.png
     :alt: Reference - information oriented, theoretical knowledge, that serves our work
     :class: sidebar
 
-In the case of software, reference guides describe the software itself - APIs, classes, functions
-and so on - and how to use them.
+对于软件而言，参考手册描述的是软件本身——包括API、类、函数等——及其使用方法。
 
-Your users need reference material because they need truth and certainty - firm platforms on which to stand while
-they work. Good technical reference is essential to provide users with the confidence to do their work.
+用户需要参考资料是因为他们需要真相和确定性——在工作中能立足的坚实平台。优质的参考手册对于赋予用户开展工作所需的信心至关重要。
 
 -----------
 
-Reference as description
+参考即描述
 ---------------------------------
 
-Reference material describes the machinery. It should be **austere**. One hardly *reads* reference material;
-one *consults* it.
+参考手册描述设备特性，其风格应 **高度简练**。人们几乎不会 *阅读* 参考手册——而是将其作为 **工具书查阅**。
 
-There should be no doubt or ambiguity in reference; it should be wholly authoritative.
+参考手册的引用必须绝对权威，不容存在任何疑问或歧义。
 
-Reference material is like a map. A map tells you what you need to know about the territory,
-without having to go out and check the territory for yourself; a reference guide serves the same
-purpose for the product and its internal machinery.
+参考资料如同地图。地图能让您无需亲自踏勘就了解地形全貌；参考手册对产品及其内部机制也起着同样的作用。
 
-Although reference should not attempt to show how to perform tasks, it can and often needs to
-include a description of how something works or the correct way to use it.
+尽管参考手册不应试图展示如何执行任务，但它可以且经常需要包含对某物工作原理或正确使用方法的描述。
 
 ..  sidebar::
 
-    Unfortunately, too many software developers think that auto-generated reference material is all the
-    documentation required.
+    遗憾的是，太多软件开发人员认为自动生成的参考手册就是所需的全部文档。
 
-Some reference material (such as API documentation) can be generated automatically by the software
-it describes, which is a powerful way of ensuring that it remains faithfully accurate to the code.
+部分参考资料（如API文档）可由其描述的软件自动生成，这是确保文档与代码保持高度一致的强效方法。
 
 
 ===============
 
 
-Key principles
+核心原则
 --------------
 
-Describe and only describe
+描述且仅作描述
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Neutral description* is the key imperative of technical reference. 
+*中性描述* 是参考手册的核心要义。
 
-..  sidebar:: Style and form
+..  sidebar:: 风格与形式
 
-    * austere and uncompromising
-    * neutrality, objectivity, factuality
-    * structured according to the structure of the machinery itself
+    * 简洁且不妥协
+    * 中立性、客观性、事实性
+    * 依照机械本身的结构进行组织
 
-Unfortunately one of the hardest things to do is to describe something neutrally. It's not a natural way of communicating. What's natural on the other hand is to explain, instruct, discuss, opine, and all these things run counter to the needs of technical reference, which instead demands accuracy, precision, completeness and clarity.
+遗憾的是，最困难的事情之一就是保持中立地描述事物。这并非自然的沟通方式。相反，自然地表达方式是进行概念解析、指导、讨论或发表观点——这些都与参考手册的需求背道而驰。参考手册要求的是准确性、精确性、完整性和清晰性。
 
-It can be tempting to introduce instruction and explanation, simply because description can seem too inadequate to be useful, and because we do indeed need these other things. Instead, link to how-to guides, explanation and introductory tutorials.
+人们很容易会在参考手册中引入操作指导和概念解析说明，这是因为单纯的描述看起来过于单薄而缺乏实用性，同时我们也确实需要这些其他内容。所以正确的做法是添加链接指向操作指南、概念解析说明和教程。
 
 
-Adopt standard patterns
+采用标准模板
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-**Reference material is useful when it is consistent.** Standard patterns are what allow us to use reference material effectively. Your job is to place the material that your user needs know where they expect to find it, in a format that they are familiar with.
+**参考材料只有在保持一致性的情况下才能发挥效用。** 标准化的模式能让我们高效利用参考材料。您的任务是以用户熟悉的格式，将所需材料放置在用户预期能找到的位置。
 
-There are many opportunities in writing to delight your readers with your extensive vocabulary and command of multiple styles, but reference material is definitely not one of them.
+在写作中，有许多机会可以通过丰富的词汇量和多种文风的掌控力让读者感到愉悦，但参考手册绝对不属于这类场合。
 
 
 .. _respect-structure:
 
-Respect the structure of the machinery
+尊重机械结构
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The way a map corresponds to the territory it represents helps us use the former to find our way
-through the latter. It should be the same with documentation: **the structure of the documentation
-should mirror the structure of the product**, so that the user can work their way through them
-at the same time.
+地图与其所代表地域的对应关系，能帮助我们借助地图在实境中导航。文档也应如此：**文档结构必须与产品结构保持镜像关系**，使用户能够同步在文档和产品中进行操作探索。
 
-It doesn't mean forcing the documentation into an unnatural structure. What's important is that the
-logical, conceptual arrangement of and relations within the code should help make sense of the
-documentation.
+这并不意味着强行将文档套入不自然的框架。关键在于代码的逻辑结构与概念布局及其内部关联应当有助于理解文档的合理性。
 
 
-Provide examples
+提供示例
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Examples** are valuable ways of providing illustration that helps readers understand reference, while avoiding the risk of becoming distracted from the job of describing. For example, an example of usage of a command can be a succinct way of illustrating it and its context, without falling into the trap of trying to explain or instruct.
+**示例**是提供说明的有效方式，既能帮助读者理解参考手册，又能避免偏离描述核心任务的风险。例如，命令的使用示例可以简明扼要地展示命令及其使用场景，而无需陷入试图解释或指导的误区。
 
 
 ==============
 
-The language of reference guides
+参考手册用语
 --------------------------------
 
-Django's default logging configuration inherits Python's defaults. It's available as ``django.utils.log.DEFAULT_LOGGING`` and defined in ``django/utils/log.py``
-    State facts about the machinery and its behaviour.
-Sub-commands are: a, b, c, d, e, f.
-    List commands, options, operations, features, flags, limitations, error messages, etc.
-You must use a. You must not apply b unless c. Never d.
-    Provide warnings where appropriate.
+Django 的默认日志配置继承自 Python 的默认设置。该配置可通过 ``django.utils.log.DEFAULT_LOGGING`` 获取，其定义位于 ``django/utils/log.py`` 文件中。
+    陈述有关机械设备及其运行状态的事实。
+子命令包括：a、b、c、d、e、f。
+    列出命令、选项、操作、功能、标志、限制条件、错误信息等。
+必须使用a。除非满足条件c，否则严禁使用b。绝对禁止d。
+    在适当情况下提供警告。
 
 ===============
 
-Applied to food and cooking
+应用于食品与烹饪
 ---------------------------
 
-You might check the information on a packet of food, in order to help you make a decision about what to do. 
+您可能会查看食品包装上的信息，然后做出决策。
 
-When you're looking for information - relevant facts - you do not want to be confronted by opinions, speculation, instructions or interpretation. 
+当您需要查找信息——确切的相关事实时，您不会希望看到观点、推测、操作指南或解读内容。
 
 ..  image:: /images/lasagne.jpg
     :alt: Information on the back of a packet of lasagne
     :class: floated
 
 
-You also expect that information to be presented in standard ways, so that you - when you need to know about something's nutritional properties, how it should be stored, its ingredients, what health implications it might have - can find them quickly, and know you can rely on them.
+您还期望这些信息能以标准化的方式呈现，这样当您需要了解某物的营养成分、储存方式、配料成分或潜在健康影响时，就能快速找到所需内容，并确信这些信息值得信赖。
 
-So you expect to see for example: *May contain traces of wheat*. Or: *Net weight: 1000g*. 
+因此您会期望看到例如： *可能含有微量小麦*。或： *净含量：1000克*。这样的信息
 
-You will certainly not expect to find for example recipes or marketing claims mixed up with this information; that could be literally dangerous. 
+您绝不会期望看到食谱或营销宣传语与这类信息混杂在一起——这可能会造成实质性的危险。
 
-The way reference material is presented on food products is so important that it's usually governed by law, and the same kind of seriousness should apply to all reference documentation.
+食品包装上参考资料的呈现方式至关重要，通常受到法律严格规范，而所有参考文档都应遵循同样的严谨标准。
 

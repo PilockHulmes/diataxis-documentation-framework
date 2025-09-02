@@ -89,84 +89,82 @@
 应对现实复杂性
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**A how-to guide needs to be adaptable to real-world use-cases**. One that is useless for any purpose except *exactly* the narrow one you have addressed is rarely valuable. You can't address every possible case, so you must find ways to remain open to the range of possibilities, in such a way that the user can adapt your guidance to their needs.
+**操作指南需具备适应实际用例的灵活性**。若其仅适用于您所处理的特定 *狭窄场景* 而无法满足其他任何需求，则此类指南往往价值有限。您无法覆盖所有可能情况，因此必须采用开放性的设计方式，使用户能够根据自身需求调整您的指导内容。
 
-Omit the unnecessary
+省略非必要内容
 ~~~~~~~~~~~~~~~~~~~~
 
-In how-to guides, **practical usability is more helpful than completeness.** Whereas a tutorial needs to be a complete,
-end-to-end guide, a how-to guide does not. It should start and end in some reasonable, meaningful place, and require
-the reader to join it up to their own work.
+在操作指南中， **实用价值比面面俱到更重要。**教程需要提供完整的端到端指导，而操作指南则不必如此。它只需在合理且有意义的节点开始和结束，并引导读者将其与自身工作经验相结合。
 
 
-Provide a set of instructions
+提供一系列指导
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A how-to guide describes an *executable solution* to a real-world problem or task. It's in the form of a contract: if you're facing this situation, then you can work your way through it by taking the steps outlined in this approach. The steps are in the form of *actions*.
+操作指南描述针对现实问题或任务的 *可执行解决方案*。其形式类似于契约：若您遇到此类情况，则可按照本方法中概述的步骤流程逐步解决问题。这些步骤均以具体操作的形式呈现。
 
-"Actions" in this context includes physical acts, but also thinking and judgement - solving a problem involves thinking it through. A how-to guide should address how the user thinks as well as what the user does.
+此处的"操作"不仅包括物理行为，还涵盖思考与判断——解决问题需要缜密思考。操作指南既要指导用户的具体操作，也要引导用户的思维过程。
 
 
-Describe a logical sequence
+描述逻辑顺序
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The fundamental structure of a how-to guide is a *sequence*. It implies logical ordering in time, that there is a sense and meaning to this particular order.
+操作指南的基本结构是 *序列化* 的。这意味着其步骤按时间顺序进行逻辑排列，特定的顺序存在其意义与作用。
 
-In many cases, the ordering is simply imposed by the way things must be (step two requires completion of step one, for example). In this case it's obvious what order your directions should take.
+在许多情况下，顺序是由事物本身的必然性决定的（例如第二步必须在第一步完成后进行）。此时，操作指南的步骤顺序应当不言自明。
 
-Sometimes the need is more subtle - it might be possible to *perform* two operations in either order, but if for example one operation helps set up the user's working environment or even their thinking in a way that benefits the other, that's a good reason for putting it first.
+有时需求更为微妙——可能两种操作以任意顺序*执行*皆可，但若某项操作能帮助建立用户的工作环境，甚至通过引导思维来促进另一项操作，这便是将其置于首位的充分理由。
 
 
-Seek flow
+寻求心流
 ~~~~~~~~~
 
-At all times, try to ground your sequences in the patterns of the *user's* activities and thinking, in such a way that the guide acquires *flow*: smooth progress.  
+始终尝试将操作步骤根植于*用户*的活动和思维模式中，使指南获得*心流*体验：即流畅的推进过程。 
 
-Achieving flow means successfully understanding the user. Paying attention to sense and meaning in ordering requires paying attention to the way human beings think and act, and the needs of someone following directions. 
+实现心流意味着成功理解用户。在编排步骤时关注感知与意义，关注人类的思维和行为方式，以及遵循指引者的需求。
 
-Again, this can be somewhat obvious: a workflow that has the user repeatedly switching between contexts and tools is clearly clumsy and inefficient. But you should look more deeply than this. What are you asking the user to think about, and how will their thinking flow from subject to subject during their work? How long do you require the user to hold thoughts open before they can be resolved in action? If you require the user to jump back to earlier concerns, is this necessary or avoidable?
+同样，这一点可能显而易见：让用户反复在不同上下文和工具间切换的工作流显然笨拙且低效。但您需要更深层次地思考：您要求用户关注哪些内容？他们在工作过程中思维如何在不同主题间自然流动？您要求用户在将想法付诸行动前保持思考状态多久？如果需要用户回溯处理先前的关注点，这种操作是必要还是可避免的？
 
-A how-to guide is concerned not just with logical ordering in time, but action taking place in time. Action, and a guide to it, has pace and rhythm. Badly-judged pace or disrupted rhythm are both damaging to flow.
+操作指南不仅关注时间上的逻辑顺序，更强调随时间推移发生的具体操作。操作及其指引具有节奏与韵律。不当的节奏把控或断裂的韵律都会破坏流畅性。
 
-At its best, how-to documentation gives the user flow. There is a distinct experience of encountering a guide that appears to *anticipate* the user - the documentation equivalent of a helper who has the tool you were about to reach for, ready to place it in your hand. 
+最理想的操作指南能为用户提供流畅的体验。当用户遇到一份仿佛能 *预判需求* 的指南时，会产生独特的感受——这就像有位助手早已备好您正要拿的工具，随时准备递到您手中。
 
 
-Pay attention to naming
+注意命名规范
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Choose titles that say exactly what a how-to guide shows.**
+**为操作指南选择能准确体现其内容的标题。**
 
-* good: *How to integrate application performance monitoring*
-* bad: *Integrating application performance monitoring* (maybe the document is about how to decide whether you should, not about how to do it)
-* very bad: *Application performance monitoring* (maybe it's about *how* - but maybe it's about *whether*, or even just an explanation of *what* it is)
+* 优秀示例: *如何集成应用性能监控*
+* 欠佳示例: *集成应用性能监控*（可能文档内容是关于是否应该集成，而非具体操作方法）
+* 较差示例: *应用性能监控* （这可能涉及*操作方式*——但也可能涉及*操作可行性*，甚至仅仅是对其*本质*的说明）
 
-Note that search engines appreciate good titles just as much as humans do.
+请注意，搜索引擎和人类一样重视优质的标题。
 
 ==============
 
-The language of how-to guides
+操作指南用语
 -----------------------------
 
-*This guide shows you how to...*
-    Describe clearly the problem or task that the guide shows the user how to solve.
-*If you want x, do y. To achieve w, do z.*
-    Use conditional imperatives.
-*Refer to the x reference guide for a full list of options.*
-    Don't pollute your practical how-to guide with every possible thing the user might do related to x.
+*本指南将向您展示如何...*
+    向用户清晰展示如何解决的具体问题或任务。
+*如需实现x，请执行y。若要达成w，请执行z。*
+    使用条件式指令。
+*完整选项列表请参阅x参考手册。*
+    不要在实用的操作指南中堆砌用户可能涉及x的所有操作。
 
 
 ================
 
-Applied to food and cooking
+应用于食品与烹饪
 ---------------------------
 
-Consider a recipe, an excellent model for a how-to guide. A recipe clearly defines what will be achieved by following it, and **addresses a specific question** (*How do I make...?* or *What can I make with...?*).
+以食谱为例，它是操作指南的绝佳模型。食谱明确定义了遵循它将实现的目标，并 **针对特定问题**（ *如何制作...？* 或 *能用...制作什么？*）。
 
 ..  image:: /images/old-recipe.jpg
     :alt: A recipe contains a list of ingredients and a list of steps.
 
-It's not the responsibility of a recipe to *teach* you how to make something. A professional chef who has made exactly the same thing multiple times before may still follow a recipe - even if they *created* the recipe themselves - to ensure that they do it correctly.
+食谱的职责并非 *教授* 烹饪技巧。即便是多次制作过相同菜肴的专业厨师，也可能遵循食谱——即使食谱由他们 *亲自编写*——以确保操作无误。
 
-Even following a recipe **requires at least basic competence**. Someone who has never cooked before should not be expected to follow a recipe with success, so a recipe is not a substitute for a cooking lesson.
+即便是照着食谱操作，也至少 **需要基本烹饪能力**。不能指望从未下过厨的人能成功按食谱操作，因此食谱并不能替代烹饪教程。
 
-Someone who expected to be provided with a recipe, and is given instead a cooking lesson, will be disappointed and annoyed. Similarly, while it's interesting to read about the context or history of a particular dish, the one time you don't want to be faced with that is while you are in the middle of trying to make it. A good recipe follows a well-established format, that excludes both teaching and discussion, and focuses only on **how** to make the dish concerned.
+期待获得具体配方的人，若只得到一堂烹饪教学，难免失望与懊恼。同理，虽然了解某道菜肴的背景或历史很有趣，但当您正专注于制作过程时，最不需要的就是面对这些信息。优秀的食谱遵循既定格式，摒弃教学与讨论，只专注于 **如何** 制作目标菜肴。
