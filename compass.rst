@@ -7,23 +7,15 @@
    :alt:
    :class: sidebar
 
-The Diátaxis map is an effective reminder of the different kinds of
-documentation and their relationship, and it accords well with intuitions
-about documentation.
+Diátaxis 框架图能有效提示各类文档的差异及其关联，这与人们对文档的直觉认知高度吻合。
 
-However intuition is not always to be relied upon. Often when working with
-documentation, an author is faced with the question: *what form of
-documentation is this?* or *what form of documentation is needed here?* - and
-no obvious, intuitive answer.
+然而直觉并非总是可靠。在处理文档时，作者常面临这样的问题： *这份文档属于什么类型？* *或此处需要什么类型的文档？*——往往没有显而易见、凭直觉就能得出的答案。
 
-Worse, sometimes intuition provides an immediate answer that is also wrong.
+更糟的是，有时直觉会立即给出一个错误的答案。
 
-A map is most powerful in unfamiliar territory when we also have a compass to
-guide us.
+在陌生地域，地图往往在我们还能用罗盘指引方向时才能发挥最大作用。
 
-The Diátaxis compass is something like a truth-table or decision-tree of
-documentation. It reduces a more complex, two-dimensional problem to its
-simpler parts, and provides the author with a course-correction tool.
+Diátaxis 罗盘类似于文档的真值表或决策树。它将更复杂的二维问题简化为更基础的组成部分，为作者提供航向修正工具。
 
 
 .. list-table::
@@ -32,46 +24,46 @@ simpler parts, and provides the author with a course-correction tool.
    :stub-columns: 0
    :class: wider
 
-   * - If the content...
-     - ...and serves the user's...
-     - ...then it must belong to...
-   * - informs action
-     - acquisition of skill
-     - a tutorial
-   * - informs action
-     - application of skill
-     - a how-to guide
-   * - informs cognition
-     - application of skill
-     - reference
-   * - informs cognition
-     - acquisition of skill
-     - explanation
+   * - 当内容...
+     - ...并且服务于...
+     - ...那它一定属于...
+   * - 影响行为
+     - 获取技能
+     - 教程
+   * - 影响行为
+     - 使用技能
+     - 操作指南
+   * - 影响认知
+     - 使用技能
+     - 参考手册
+   * - 影响认知
+     - 获取技能
+     - 概念解析
 
-The compass can be applied equally to user situations that need documentation, or to documentation itself that perhaps needs to be moved or improved. Like many good tools, it's surprisingly banal.
+罗盘既能用于需要文档记录的用户场景，也能用于那些可能需要迁移或改进的文档本身。正如许多优秀工具一样，它看似平平无奇，却效果显著。
 
-To use the compass, just two questions need to be asked: *action or cognition?* *acquisition or application?* 
+使用该罗盘时，只需提出两个问题： *行动还是认知？* *获取还是应用？*
 
-And it yields the answer.
+答案便随之呈现。
 
 
-Using the compass
+使用罗盘
 ------------------
 
-The compass is particularly effective when you think that you think you (or even the documentation in front of you) are doing one thing - but you are troubled by a sense of doubt, or by some difficulty in the work. The compass forces you to stop and reconsider.
+当您认为（甚至眼前的技术文档显示）自己正在执行某项操作，却因疑虑感或工作中的某些困难而感到困扰时，罗盘的作用尤为显著。它会迫使您暂停当前操作并重新审视。
 
-Especially when you are trying to find your initial bearings, use the compass's terms flexibly; don't get fixated on the exact names.
+尤其是在尝试建立初步方向感时，请灵活运用罗盘的术语体系，不必拘泥于具体名称的精确性。
 
-* *action*: practical steps, doing
-* *cognition*: theoretical or propositional knowledge, thinking
-* *acquisition*: study
-* *application*: work
+* *行动*：实践步骤，执行
+* *认知*：理论或命题性知识，思考
+* *获取*：学习
+* *应用*：工作
 
-And the questions themselves can also be used in different ways:
+这些问题本身也可以多种方式运用：
 
-* Do I think I am writing for *x* or *y*?
-* Is this writing in front of me engaged in *x* or *y*?
-* Does the user need *x* or *y*?
-* Do I want to *x* or *y*?
+* 我认为自己是在为 *x* 还是 *y* 而写作？
+* 眼前这份文档属于 *x* 还是 *y* 类型？
+* 用户需要的是 *x* 还是 *y*？
+* 我想要实现 *x* 还是 *y*？
 
-And try applying them close-up, at the level of sentences and words, or from a wider perspective, considering an entire document.
+试着从微观角度，在句子和词语层面近距离应用它们；亦可从更广阔的视角，着眼于整个文档来应用。
