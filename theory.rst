@@ -1,34 +1,34 @@
-Understanding Diátaxis
+理解 Diátaxis
 ======================
 
 ..  epigraph::
 
-    The Grand Unified Theory of Documentation
+    文档大一统理论
 
     -- David Laing
 
 ----------------
 
-The pages in this section are intended to provide some theoretical grounding for the practices Diátaxis prescribes, and to explore some of the questions it raises.
+本部分内容旨在为 Diátaxis 框架所规定的实践提供理论基础，并探讨该框架引发的一些问题。
 
-Within the discipline of documentation, discourse tends towards the practical and concrete. The approach is generally heuristic: guidelines, rules of thumb, specific imperatives, principles that we know work. 
+在文档学领域，论述往往偏向实用与具体。其方法通常是启发式的：包括行之有效的指导方针、经验法则、具体操作要求以及原则规范。
 
-As practitioners, we have much to say about what to do, and how to do it and how it works, and relatively little to say about *why* it works. Our sense of the right way to do things is largely based on a combination of intuition and experience. The theoretical aspect of the discipline receives far less attention.
+作为实践者，我们对于“该做什么”、“如何操作”以及“运作机制”有诸多阐述，却鲜少论及“ *为何* 有效”。我们对正确实践方式的认知，主要源于直觉与经验的结合。该学科的理论层面则远未受到同等程度的关注。
 
-Diátaxis aims to place documentation practice on a more rigorous theoretical footing.
+Diátaxis 致力于将文档实践建立在更严谨的理论基础之上。
 
 ----------------
 
-In this section
+本节内容
 ---------------
 
-These pages dig deeper into the thinking that underpins Diátaxis.
+以下页面深入探讨支撑 Diátaxis 框架的核心思想：
 
-* :doc:`foundations` - *why* Diátaxis works 
-* :doc:`map` - documentation in two dimensions
+* :doc:`foundations` - Diátaxis *为何*有效
+* :doc:`map` - 文档的两种维度划分
 * :doc:`quality`
 
-Common problems explored:   
+常见问题探讨：
 
 * :doc:`tutorials-how-to`
 * :doc:`reference-explanation`

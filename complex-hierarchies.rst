@@ -1,6 +1,6 @@
 .. _complex-documentation:
 
-Diátaxis in complex hierarchies
+复杂层级结构中的 Diátaxis 应用
 ==================================
 
 .. _basic-structure:

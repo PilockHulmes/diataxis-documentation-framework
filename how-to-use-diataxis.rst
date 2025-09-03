@@ -3,123 +3,84 @@
 Diátaxis 作为工作指南
 ===========================
 
-As well as providing a guide to documentation content, Diátaxis is also a guide to documentation process and execution. 
+Diátaxis 不仅是文档内容的指南，也是文档流程与执行的指南。
 
-Most people who work on technical documentation must make decisions about how to work, as they work. In some contexts, documentation must be delivered once, complete and in its final state, but it's more usual that it's an on-going project, for example developed alongside a product that itself evolves and develops. It's also the experience of many people who work on documentation to find themselves responsible for improving or even remediating a body of work.
+从事技术文档编写工作的人，大多需要在工作的同时对工作方式做出决策。在某些情况下，文档必须一次性完整交付终稿；但更常见的情况是文档作为长期项目持续更新，比如随着产品的迭代升级同步开发。许多文档工作者都有这样的体验：自己需要负责改进甚至修补整套文档工作。
 
-Diátaxis provides an approach to work that runs counter to much of the accepted wisdom in documentation. In particular, it discourages planning and top-down workflows, preferring instead small, responsive iterations from which overall patterns emerge.
+Diátaxis 提出的文档工作方法，与主流认知背道而驰。该框架尤其不鼓励预先规划和自上而下的工作流，更推崇通过小而敏捷的响应式迭代，让整体模式自然浮现。
 
-
-Use Diátaxis as a guide, not a plan
+将 Diátaxis 作为指南，而非计划。
 -----------------------------------
 
-Diátaxis describes a complete picture of documentation. However the structure it proposes is not intended to be a
-**plan**, something you must complete in your documentation. It's a **guide**, a map to help you check that you're in
-the right place and going in the right directions.
+Diátaxis 描绘了文档体系的完整图景，但其提出的结构并非要成为文档必须完成的 **计划**，而是作为 **指南**——一张帮助您确认所处位置正确且方向无误的导航图。
 
-The point of Diátaxis is to give you a way to think about and understand your documentation, so that you can make
-better sense of what it's doing and what you're trying to do with it. It provides tools that help assess it, identify
-where its problems lie, and judge what you can do to improve it.
+Diátaxis 的核心价值在于为您提供一种思考和理解文档体系的方式，从而使您能更清晰地把握文档的现状及其目标定位。它提供了一套评估工具，可帮助您识别问题所在，并判断可行的改进措施。
 
 
-Don't worry about structure
+无需担心结构
 -----------------------------------------
 
-Although structure is key to documentation, **using Diátaxis means not spending energy trying to get its structure
-correct**.
+尽管结构是文档的关键， **但采用 Diátaxis 意味着无需耗费精力去追求结构的绝对正确。**
 
-If you continue to follow the prompts that Diátaxis provides, eventually your documentation will assume the
-Diátaxis structure - but it will have assumed that shape *because* it has been improved. It's not the other way round,
-that the structure must be imposed upon documentation to improve it.
+如果您持续遵循 Diátaxis 提供的引导，最终您的文档将呈现 Diátaxis 结构——但这种形态的生成 *源于* 文档质量的提升。绝非相反地认为必须通过强制植入结构来改善文档。
 
-Getting started with Diátaxis does not require you to think about dividing up your documentation into four sections. **It certainly does not mean that you should create empty structures for tutorials/howto guides/reference/explanation with nothing in them.** Don't do that. It's horrible.
+开始使用 Diátaxis 时，无需刻意考虑将文档划分为四个部分。 **更不意味着您应该先创建教程/操作指南/参考手册/概念解析的空框架而不填充内容。**千万别这么做，这非常糟糕。
 
-Instead, following the workflow described in the next two sections, make changes where you see opportunities for
-improvement according to Diátaxis principles, so that the documentation starts to take a certain shape. At a certain
-point, the changes you have made will appear to demand that you move material under a certain Diátaxis heading - and
-that is how your top-level structure will form. In other words, **Diátaxis changes the structure of your documentation
-from the inside**.
+相反，请按照接下来两节描述的工作流程，在您认为存在改进空间的地方依据 Diátaxis 原则进行修改，使文档逐渐形成特定形态。当修改积累到一定程度时，您会自然意识到需要将某些内容移至特定的 Diátaxis 分类下——顶级结构就是这样形成的。 **换言之，Diátaxis 是从内部重塑您的文档结构**。
 
 
-Work one step at a time
+逐步推进工作
 ---------------------------------------------
 
-Diátaxis strongly prescribes a structure, but whatever the state of your existing documentation - even if it's a
-complete mess by any standards - it's always possible to improve it, **iteratively**.
+Diátaxis 虽然严格规定了结构框架，但无论您现有文档处于何种状态——即使按任何标准衡量都一团糟——始终可以通过 **迭代** 方式逐步改进。
 
-It's natural to want to complete large tranches of work before you publish them, so that you have something substantial
-to show each time. Avoid this temptation - every step in the right direction is worth publishing immediately.
+人们自然希望在发布前完成大量工作，以便每次都能展示实质性成果。但请抵制这种诱惑——每一个正确的方向性进展都值得立即发布。
 
-Although Diátaxis is intended to provide a big picture of documentation, **don't try to work on the big picture**. It's
-both unnecessary and unhelpful. Diátaxis is designed to guide small steps; keep taking small steps to arrive where you
-want to go.
+尽管 Diátaxis 旨在呈现文档体系的宏观图景，但**切勿试图直接构建宏观框架**。这既无必要亦无益处。Diátaxis 的设计初衷是引导渐进式优化——通过持续迈出小步，最终抵达目标境地。
 
 
-Just do something
+动手去做
 -------------------
 
-If you're tidying up a huge mess, the temptation is to tear it all down and start again. Again, avoid it. As far as
-improving documentation in-line with Diátaxis goes, it isn't necessary to seek out things to improve. Instead, the best
-way to apply Diátaxis is as follows:
+面对一团乱麻时，人们总想推倒重来。请再次抵制这种冲动。就遵循 Diátaxis 框架改进文档而言，无需刻意寻找待优化之处。最佳实践方式如下：
 
-**Choose something** - any piece of the documentation. If you don’t already have something that you know you want to
-put right, don't go looking for outstanding problems. Just look at what you have right in front of you at that moment:
-the file you’re in, the last page you read - it doesn’t matter. If there isn’t one just choose something, literally at
-random.
+**选择任意内容**——任选一篇文档片段。若您尚无明确需要修正的内容，不必刻意寻找现存问题。只需关注当下触手可及的材料：当前打开的文件、刚阅读的页面——这些皆可。若实在无从选择，不妨随机选取一段内容。
 
-**Assess it**. Next consider this thing critically. Preferably it’s a small thing, nothing bigger than a page - or
-better, even smaller, a paragraph or a sentence. Challenge it, according to the standards Diátaxis prescribes: *What
-user need is represented by this? How well does it serve that need? What can be added, moved, removed or changed to
-serve that need better? Do its language and logic meet the requirements of this mode of documentation?*
+**评估它**。接下来批判性地审视这个内容。最好选择小体量内容——不超过一页，甚至更小，比如一个段落或句子。依照Diátaxis框架的标准进行检验： *它体现了何种用户需求？满足该需求的效果如何？可以通过增补、移动、删除或修改哪些内容来更好地满足需求？其语言逻辑是否符合当前文档模式的要求？*
 
-**Decide what to do**. Decide, based on your answers to those questions: *What single next action will produce an
-immediate improvement here?*
+**确定行动方案**。根据上述问题的回答做出决策： *哪个单一后续行动能在此处立竿见影地提升效果？*
 
-**Do it**. Complete that next single action, *and consider it completed* - i.e. publish it, or at least commit the
-change. Don't feel that you need to do anything else to make a worthy improvement.
+**立即执行**。完成下一个单一动作，*并视其已完成*——即发布该内容，或至少提交变更。无需认为必须进行其他操作才能实现有价值的改进。
 
-And then go back to the beginning of the cycle.
+然后回到循环的起点。
 
-Working like this helps reduce the stress of one of the most paralysing and troublesome aspects of the
-documentation-writer's work: working out what to do. It keeps work flowing in the right direction, always towards the
-desired end, without having to expend energies on a plan.
+这种工作方式有助于缓解文档编写工作中最令人束手无策且困扰的环节——决定该做什么——所带来的压力。它能让工作始终朝着预期目标顺畅推进，而无需在制定计划上耗费精力。
 
 
-Allow your work to develop organically
+让您的工作自然生长
 ----------------------------------------
 
-There's a strong urge to work in a cycle of planning and execution in order to work towards results. But it's not the
-only way, and there are often better ways when working with documentation.
+人们往往强烈倾向于采用计划与执行的循环工作模式来达成目标。但这并非唯一途径，在处理文档工作时通常存在更优方法。
 
-Well-formed organic growth
+结构良好的有机生长
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A good model for documentation is **well-formed organic growth that adapts to external conditions**. Organic growth
-takes place at the cellular level. The structure of the organism as a whole is guaranteed by the healthy development of
-cells, according to rules that are appropriate to each kind of cell. It's not the other way round, that a structure is
-imposed on the organism from above or outside. Good structure develops from within.
+一份优秀的文档模型应当遵循 **结构良好的有机生长模式，能够适应外部条件的变化**。有机生长发生在细胞层面——整个生物体的结构完整性依赖于各类细胞根据自身规则健康发展，而非通过外部强加的结构来实现。良好的结构是从内部自然生长形成的。
 
 ..  figure:: /images/always-complete.jpg
     :figclass: wider
     :alt:
 
-    Illustration copyright `Linette Voller <https://linettevoller.com>`_ 2021, reproduced with kind permission.
+    插图版权归 `Linette Voller <https://linettevoller.com>`_ 2021 所有，经友好授权转载。
 
-It's the same with documentation: by following the principles that Diátaxis provides, your documentation will
-attain a healthy structure, because its internal components themselves are well-formed - like a living organism, it
-will have built itself up from the inside-out, one cell at a time.
+文档工作亦是如此：遵循 Diátaxis 框架提出的原则，您的文档将获得健康的结构，因为其内部组件本身构建良好——就像有机生命体那样，它会从内而外逐层生长，如同细胞分裂般自然成型。
 
-Complete, not finished
+完整，而非完成
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Consider a plant. As a living, growing organism, a plant is **never finished** - it can always develop further, move on
-to the next stage of growth and maturity. But, at every stage of its development, from seed to a fully-mature tree,
-it's **always complete** - there's never something missing from it. At any point, it is in a state that is appropriate
-to its stage of development.
+以植物为例。作为不断生长的生命体，植物 **永无终结**——它总能持续发展，迈向新的成长与成熟阶段。但在其从种子到参天大树的每个发展阶段，它 **始终是完整的**——从未缺失任何部分。在任何时间节点，它都处于符合当前发展阶段的完满状态。
 
-Similarly, documentation is also never finished, because it always has to keep adapting and changing to the product and
-to users' needs, and can always be developed and improved further.
+同样地，文档也永无完成之时，因为它必须持续适应产品和用户需求的变化，并始终存在进一步优化完善的空间。
 
-However it can always be complete: useful to users, appropriate to its current stage of development, and in a healthy
-structural state and ready to go on to the next stage.
+然而它始终可以保持完整：对用户有用，符合当前开发阶段需求，结构状态良好，随时可进入下一阶段。
 

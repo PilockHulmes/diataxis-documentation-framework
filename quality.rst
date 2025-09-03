@@ -1,4 +1,4 @@
-Towards a theory of quality in documentation
+构建优质文档的理论路径
 ===============================================
 
 Diátaxis is an approach to *quality* in documentation.

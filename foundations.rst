@@ -1,4 +1,4 @@
-Foundations
+理论基础
 ===========
 
 Diátaxis is successful because it *works* - both users and creators have a better experience of documentation as a result. It makes sense and it feels right.
