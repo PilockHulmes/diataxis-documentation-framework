@@ -4,54 +4,35 @@
 =======
 
 
-One reason Diátaxis is effective as a guide to organising documentation is
-that it describes a **two-dimensional structure**, rather than a *list*. 
+Diátaxis 能有效指导文档组织的一个原因是，它描述的是一种 **二维结构**，而非简单的 *列表*。
 
 .. image:: /images/diataxis.png
    :alt:
    :class: sidebar
 
-It specifies its types of documentation in such a way that the structure
-naturally helps guide and shape the material it contains.
+它通过特定的文档类型划分方式，使结构本身自然起到引导和塑造内容组织的作用。
 
-As a map, it places the different forms of documentation into relationships
-with each other. Each one occupies a space in the mental territory it outlines,
-and the boundaries between them highlight their distinctions.
+作为图谱，它将不同形式的文档相互关联起来。每种文档在其勾勒的心智版图中各占一席之地，彼此间的界限突显了它们的差异。
 
 
-The problem of structure
+结构问题
 ------------------------
 
-When documentation fails to attain a good structure, it's rarely just a problem of structure (though it's bad enough that it makes it harder to use and maintain). Architectural faults infect and undermine content too.
+当文档未能形成良好结构时，这很少仅仅是结构问题（尽管单是这一点就足以导致文档更难使用和维护）。架构缺陷还会侵蚀并破坏内容本身。
 
-In the absence of a clear, generalised documentation architecture, documentation creators will often try to structure their work around features of a product.
+在缺乏清晰、通用的文档架构时，文档创作者往往会围绕产品功能来组织内容结构。
 
-This is rarely successful, even in a single instance. In a portfolio of
-documentation instances, the results are wild inconsistency. Much better is
-the adoption of a scheme that tries to provide an answer to the
-question: how to arrange documentation *in general?*
+这种做法即便在单个案例中也鲜有成功。在大量文档实例构成的组合中，其结果往往是严重的混乱失序。更优解是采用一种系统性方案，其核心在于回答：如何从 *全局角度* 规划文档架构？
 
-In fact any orderly attempt to organise documentation into clear content
-categories will help improve it (for authors as well as users), by providing
-lists of content types.
+事实上，任何将文档按清晰内容类别进行系统化整理的尝试（例如提供内容类型清单），都能通过明确文档类型帮助改善文档质量（对编写者和使用者皆然）。
 
-Even so, authors often find themselves needing to write particular
-documentation content that fails to fit well within the categories put
-forward by a scheme, or struggling to rewrite existing material. Often,
-there is a sense of arbitrariness about the structure that they find
-themselves working with - why this particular list of content types
-rather than another? And if another competing list is proposed, which to
-adopt?
+即便如此，作者们常会遇到这样的情况：需要撰写的特定文档内容无法很好地契合既定分类方案，或是不得不费力重写现有材料。他们常感到当前采用的结构存在随意性——为何是这一组内容类型而非另一组？若有人提出另一套竞争性分类清单，又该采纳哪一套？
 
 
-Expectations and guidance
+期望与指导原则
 -------------------------
 
-A clear advantage of organising material this way is that it provides both
-clear *expectations* (to the reader) and
-*guidance* (to the author). It's clear what the purpose of any particular
-piece of content is, it specifies how it should be written and it shows
-where it should be placed.
+以这种方式组织材料的明显优势在于，它既为读者提供了明确的 *预期*，又为作者提供了 *指导*。任何特定内容片段的目的是明确的，它规定了应该如何编写内容，并指明了内容应该放置的位置。
 
 .. list-table::
    :widths: 16 21 21 21 21
@@ -60,111 +41,100 @@ where it should be placed.
    :class: wider
 
    * - \
-     - :ref:`Tutorials <tutorials>`
-     - :ref:`How-to guides <how-to>`
-     - :ref:`Reference <reference>`
-     - :ref:`Explanation <explanation>`
-   * - what they do
-     - introduce, educate, lead
-     - guide
-     - state, describe, inform
-     - explain, clarify, discuss
-   * - answers the question
-     - "Can you teach me to...?"
-     - "How do I...?"
-     - "What is...?"
-     - "Why...?"
-   * - oriented to
-     - learning
-     - goals
-     - information
-     - understanding
-   * - purpose
-     - to provide a learning experience
-     - to help achieve a particular goal
-     - to describe the machinery
-     - to illuminate a topic
-   * - form
-     - a lesson
-     - a series of steps
-     - dry description
-     - discursive explanation
-   * - analogy
-     - teaching a child how to cook
-     - a recipe in a cookery book
-     - information on the back of a food packet
-     - an article on culinary social history
+     - :ref:`教程 <tutorials>`
+     - :ref:`操作指南 <how-to>`
+     - :ref:`参考手册 <reference>`
+     - :ref:`概念解析 <explanation>`
+   * - 作用
+     - 介绍、教育、引导
+     - 指导
+     - 声明、描述、告知
+     - 概念解析、阐明、讨论
+   * - 回答哪种问题
+     - “您能教我...吗？”
+     - “我该如何...？”
+     - “什么是...？”
+     - “为什么...？”
+   * - 面向
+     - 学习
+     - 目标
+     - 信息
+     - 理解
+   * - 目的
+     - 提供学习体验
+     - 为实现特定目标
+     - 描述机械装置
+     - 阐明某个主题
+   * - 形式
+     - 一堂课
+     - 一系列步骤
+     - 枯燥的描述
+     - 发散性概念解析
+   * - 类比
+     - 教孩子烹饪
+     - 烹饪书中的食谱
+     - 食品包装背面的信息
+     - 一篇关于烹饪社会史的文章
 
-Each piece of content is of a kind that not only has one particular job to do, that job is also clearly distinguished
-from and contrasted with the other functions of documentation.
+每类内容不仅承担特定职能，其职能还与其他文档类型明确区分并形成对比。
 
 
-Blur
+模糊
 --------------------------
 
-Most documentation systems and authors recognise at least some of these distinctions and try to observe them in
-practice. 
+大多数文档系统和作者至少能识别其中部分区别，并尝试在实践中遵循这些原则。
 
 ..  image:: /images/partial-collapse.png
     :alt: Partial collapse of the structure
     :class: sidebar
 
-However, there is a kind of natural affinity between each of the different forms of documentation and its
-neighbours on the map, and a natural tendency to blur the distinctions (that can be seen repeatedly in examples of
-documentation).
+然而，在文档罗盘中，各类文档形式与其相邻类型之间存在天然的亲缘关系，且存在模糊界限的自然倾向（这种倾向在文档示例中屡见不鲜）。
 
 .. list-table::
    :widths: 50  25 25
    :stub-columns: 1
 
-   * - guide action
-     - tutorials
-     - how-to guides
-   * - serve the application of skill
-     - reference
-     - how-to guides
-   * - contain propositional knowledge
-     - reference
-     - explanation
-   * - serve the acquisition of skill
-     - tutorials
-     - explanation
+   * - 指导行动
+     - 教程
+     - 操作指南
+   * - 服务于技能应用
+     - 参考手册
+     - 操作指南
+   * - 包含命题性知识
+     - 参考手册
+     - 概念解析
+   * - 服务于技能习得
+     - 教程
+     - 概念解析
 
-When these distinctions are allowed to blur, the different kinds of documentation bleed into each other. Writing style and content make their way into inappropriate places. It also causes structural problems, which make it even more difficult to maintain the discipline of appropriate writing. 
+当这些界限变得模糊时，不同类型的文档就会相互渗透。写作风格和内容会出现在不恰当的位置，同时还会引发结构性问题，这使得更难维持规范写作的纪律性。 
 
 ..  image:: /images/total-collapse.png
     :alt: Total collapse of the structure
     :class: sidebar
 
-In the worst case there is a complete or partial collapse of tutorials and how-to guides into each other, making it impossible to meet the needs served by either.
+最糟糕的情况下，教程和操作指南会完全或部分地相互坍缩，导致两者所服务的需求都无法得到满足。
 
 
 -------------
 
-The journey around the map
+环游地图之旅
 --------------------------
 
-Diátaxis is intended to help documentation better serve users in their *cycle of interaction* with a product.
+Diátaxis旨在帮助文档更好地服务于用户与产品 *交互循环* 中的使用需求。
 
-This phrase should not be understood too literally. It is not the case that a user must encounter the different kinds
-of documentation in the order *tutorials* > *how-to guides* > *technical reference* > *explanation*. In practice,
-an actual user may enter the documentation anywhere in search of guidance on some particular subject, and what they
-want to read will change from moment to moment as they use your documentation.
+不应过于从字面上理解这句话。实际情况并非用户必须按照 *教程* > *操作指南* > *参考手册* > *概念解析* 的顺序接触各类文档。实践中，真实用户可能从文档的任何部分切入以寻求特定主题的指导，且随着他们使用文档的进程，其阅读需求也会不断变化。
 
-However, the idea of a cycle of documentation needs, that proceeds through different phases, is sound and corresponds
-to the way that people actually do become expert in a craft. There is a sense and meaning to this ordering.
+然而，文档需求周期的理念——即经历不同阶段的过程——是合理的，这符合人们真正掌握一门技艺的路径。这种排序方式具有其内在逻辑和意义。
 
 ..  image:: /images/map-movement.png
     :alt: Moving around the map
     :class: sidebar
 
 
-* *learning-oriented phase*: We begin by learning, and learning a skill means diving straight in to do it - under the
-  guidance of a teacher, if we're lucky.
-* *goal-oriented phase*: Next we want to put the skill to work.
-* *information-oriented phase*: As soon as our work calls upon knowledge that we don't already have in our head, it
-  requires us to consult technical reference.
-* *explanation-oriented phase*: Finally, away from the work, we reflect on our practice and knowledge to understand the
-  whole.
+* *学习导向阶段*：我们从学习开始，掌握一项技能意味着直接动手实践——如果幸运的话，在教师的指导下进行。
+* *目标导向阶段*：接下来我们希望将所学技能投入实际工作。
+* *信息导向阶段*: 当工作中遇到我们尚未掌握的知识时，就需要查阅技术参考手册。
+* *概念解析导向阶段*：最后，在工作之外，我们反思实践与知识，以理解整体脉络。
 
-And then it's back to the beginning, perhaps for a new thing to grasp, or to penetrate deeper.
+而后又回到起点，可能是为了掌握新事物，或是进行更深入的探究。

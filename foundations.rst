@@ -1,86 +1,86 @@
 理论基础
 ===========
 
-Diátaxis is successful because it *works* - both users and creators have a better experience of documentation as a result. It makes sense and it feels right.
+Diátaxis 之所以成功，是因为它 *行之有效*——用户和创作者都能因此获得更好的文档体验。它既合乎逻辑，又让人感觉恰到好处。
 
-However, that's not enough to be confident in Diátaxis as a theory of documentation. As a theory, it needs to show *why* it works. It needs to show that there is actually some reason why there are exactly four kinds of documentation, not three or five. It needs to demonstrate rigorous thinking and analysis, and that it stands on a sound theoretical foundation.
+然而，这还不足以让我们对作为文档理论的 Diátaxis 建立充分信心。作为一套理论体系，它需要阐明其*为何*有效，必须证明存在确凿理由说明为何文档类型恰好是四种而非三种或五种。该理论需要展现严谨的思考分析，并建立在扎实的理论基础之上。
 
-Otherwise, it will be just another useful heuristic approach, and the strongest claim we can make for it is that "it seems to work quite well".
+否则，它只会沦为另一种实用的启发式方法，而我们能为其提出的最强主张不过是“它似乎相当有效”。
 
 
-Two dimensions of craft
+技艺的两个维度
 -----------------------
 
-Diátaxis is based on the principle that documentation must serve the needs of its users. Knowing how to do that means understanding what the needs of users are.
+Diátaxis 的核心理念是文档必须服务于用户需求。要实现这一目标，关键在于理解用户需求的具体构成。
 
-The user whose needs Diátaxis serves is *the practitioner in a domain of skill*. A domain of skill is defined by a craft - the use of a tool or product is a craft. So is an entire discipline or profession. Using a programming language is a craft, as is flying a particular aircraft, or even being a pilot in general.
+Diátaxis 所服务的用户是 *特定技能领域的实践者*。技能领域由一门技艺界定——使用某种工具或产品即为一门技艺，整个学科或专业亦是如此。使用编程语言是一门技艺，驾驶特定型号飞机乃至广义上的飞行员职业同样如此。
 
-Understanding the needs of these users means in turn understanding the essential characteristics of craft or skill.
+理解这些用户的需求，就意味着要理解技艺或技能的本质特征。
 
 
-Action/cognition
+行动/认知
 ~~~~~~~~~~~~~~~~
 
-A skill or craft or practice contains both **action** (practical knowledge, knowing *how*, what we do) and **cognition** (theoretical knowledge, knowing *that*, what we think). The two are completely bound up with each other, but they are counterparts, wholly distinct from each, two different aspects of the same thing.
+一门技艺、工艺或实践既包含 **行动**（实践知识，即 *如何做* 的知识，我们的行为方式），也包含 **认知**（理论知识，即 *是什么* 的知识，我们的思维方式）。二者完全相互依存，但又是对立统一的整体——它们既是同一事物的两个不同面向，又彼此截然不同。
 
 
-Acquisition/application
+获取/应用
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Similarly, the relationship of a practitioner with their practice is that it is something that needs to be both **acquired**, and **applied**. Being "at work" (concerned with applying the skill and knowledge of their craft) and being "at study" (concerned with acquiring them) are once again counterparts, distinct but bound up with each other.
+同样地，实践者与其技艺的关系也体现为既需要 **获取** 又需要 **应用**。“在实践”（专注于运用技艺的技能与知识）与“在学习”（专注于掌握这些技能与知识）再次构成对立统一的整体——二者截然不同却又密不可分。
 
 
-The map of the territory
+领域地图
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-This gives us two dimensions of skill, that we can lay out on a map - a map of the territory of craft:
+这为我们提供了技能的两个维度，可以将其展现在一张地图上——一张技艺领域的地图：
 
 ..  image:: /images/two-dimensions.png
     :alt: The territory of craft as a two-dimensional map 
 
-This is a *complete* map. There are only two dimensions, and they don't just cover the entire territory, they define it. This is why there are necessarily four quarters to it, and there could not be three, or five. It is not an arbitrary number.
+这是一张 *完整* 的地图。它仅包含两个维度，这两个维度不仅覆盖了整个领域，更定义了该领域。正因如此，地图必然被划分为四个象限，而不可能是三个或五个。这个数字并非随意选定。
 
-It also shows us the *qualities* of craft that define each of them. When the idea that documentation must serve the needs of craft is applied to this map, it reveals in turn what documentation must be and do to fulfil those obligations - in four distinct ways.
+它还向我们展示了界定每种文档的 *工艺* 特质。当“文档必须服务于工艺需求”的理念应用于这张图谱时，又会反过来揭示文档必须具备哪些特性以及需要实现哪些功能来履行这些职责——具体通过四种截然不同的方式实现。
 
 
-Serving needs
+服务需求
 -------------
 
-The map of the territory of craft is what gives us the familiar Diátaxis map of documentation. The map is in effect an answer to the question: what must documentation do to align with these qualities of skill, and to what need is it oriented in each case?
+工艺领域的地图正是我们熟知的 Diátaxis 文档框架。这张地图实质上回答了两个问题：文档必须具备哪些特质才能与这些工艺特性保持一致？在每种情况下它又分别对应何种需求？
 
 ..  image:: /images/axes-of-needs.png
     :alt: The territory of craft as a two-dimensional map 
 
-We can see how the map of documentation addresses *needs* across those two dimensions, each need also defined by the characteristics of its quarter of the map. 
+我们可以看到文档图谱如何在这两个维度上满足不同 *需求*，每种需求也由其所在象限的图谱特征所界定。
 
 
 .. list-table::
    :header-rows: 1
    :widths: 22 22 26 30  
 
-   * - need
-     - addressed in
-     - the user
-     - the documentation
-   * - learning
-     - tutorials
-     - acquires their craft
-     - informs action
-   * - goals
-     - how-to guides
-     - applies their craft
-     - informs action
-   * - information
-     - reference
-     - applies their craft
-     - informs cognition
-   * - understanding
-     - explanation
-     - acquires their craft
-     - informs cognition
+   * - 需求
+     - 解决方案
+     - 用户
+     - 文档
+   * - 学习
+     - 教程
+     - 获取技艺
+     - 指导行动
+   * - 行动目标
+     - 操作指南
+     - 实施技艺
+     - 指导行动
+   * - 信息
+     - 参考手册
+     - 实施技艺
+     - 提升认知
+   * - 理解
+     - 概念解析
+     - 获取技艺
+     - 提升认知
 
 
-The Diátaxis map of documentation is a memorable and approachable idea. But, a map is only reliable if it adequately describes a reality. Diátaxis is underpinned by a systematic description and analysis of generalised **user needs**.
+Diátaxis文档图谱是一个令人难忘且易于理解的理念。但只有当图谱充分描述现实时，它才是可靠的。Diátaxis的基石在于对广义**用户需求**的系统性描述与分析。
 
-This is why the tutorials, how-to guides, reference and explanation of Diátaxis are a complete enumeration of the types of documentation that serve practitioners in a craft. This is why there are four and only four types of documentation. There is simply no other territory to cover.
+正因如此，Diátaxis框架中的教程、操作指南、参考手册和概念解析这四类文档，完整涵盖了技艺实践者所需的所有文档类型。这就是为什么文档有且仅有这四种类型——除此之外再无其他需要覆盖的领域。
 
