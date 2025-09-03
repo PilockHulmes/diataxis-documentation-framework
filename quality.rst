@@ -1,259 +1,146 @@
-构建优质文档的理论路径
+构建文档质量理论框架
 ===============================================
 
-Diátaxis is an approach to *quality* in documentation.
+Diátaxis 是一种旨在提升文档 *质量* 的方法论。
 
-"Quality" is a word in danger of losing some of its meaning; it's something we
-all approve of, but rarely risk trying to describe in any rigorous way. We
-want quality in our documentation, but much less often specify what exactly
-what we mean by that.
+“质量”这个词正面临失去部分实质意义的危险——我们都认可其价值，却鲜少尝试对其进行严谨定义。我们追求文档质量，但极少明确界定其具体内涵。
 
-All the same, we can generally point to examples of "high quality
-documentation" when asked, and can identify lapses in quality when we see
-them - and more than that, we often agree when we do. This suggests that
-we still have a useful grasp on the notion of quality.
+尽管如此，当被问及“高质量文档”的范例时，我们通常都能列举实例；当发现质量缺陷时，我们也能够识别——更重要的是，我们在这些判断上往往能达成共识。这表明我们对质量概念仍保持着有效的把握。
 
-As we pursue quality in documentation, it helps to make that grasp surer,
-by paying some attention to it - here, attempting to refine our grasp by
-positing a distinction between **functional quality** and **deep quality**.
+在追求文档质量的过程中，通过关注质量本身——此处试图通过区分**功能质量**与**深层质量**来完善我们的理解——有助于更牢固地把握质量内涵。
 
 
-Functional quality
+功能质量
 ------------------
 
-We need documentation to meet standards of *accuracy*, *completeness*,
-*consistency*, *usefulness*, *precision* and so on. We can call these
-aspects of its **functional quality**. Documentation that fails to meet
-any one of them is failing to perform one of its key functions.
+我们需要确保文档符合 *准确性*、 *完整性*、 *一致性*、 *实用性*、 *精确性* 等标准。这些要素可统称为其 **功能质量**。若文档未能满足其中任一标准，就意味着它未能履行关键职能之一。
 
-These properties of functional quality are all independent of each other.
-Documentation can be accurate without being complete. It can be complete, but
-inaccurate and inconsistent. It can be accurate, complete, consistent and
-also useless.
+功能质量的这些属性彼此独立。文档可以准确但不完整，可以完整但不准确且不一致，也可以准确、完整、一致却毫无实用价值。
 
-Attaining functional quality means meeting high, objectively-measurable
-standards in multiple independent dimensions, consistently. It requires
-discipline and attention to detail, and high levels of technical skill.
+实现功能质量意味着在多个独立维度上持续达到客观可衡量的高标准。这需要严谨的态度、对细节的关注以及高超的技术能力。
 
-To make it harder for the creator of documentation, any failure to meet
-all of these standards is readily apparent to the user.
+对编写者而言更棘手的是，任何不符合这些标准的情况，用户都能一目了然。
 
 
 .. _deep-quality:
 
-Deep quality
+深层质量
 ------------
-There are other characteristics, that we can call **deep quality**.
+还存在其他特征，我们可称之为 **深层质量**。
 
-Functional quality is not enough, or even satisfactory on its own as an
-ambition. True excellence in documentation implies characteristics of quality
-that are not included in accuracy, completeness and so on.
+仅实现功能质量是不够的，甚至将其作为单一目标也难以令人满意。真正卓越的文档意味着具备准确性、完整性等基础维度之外的品质特征。
 
-Think of characteristics such as:
+可考虑以下特征：
 
-* *feeling good to use*
-* *having flow*
-* *fitting to human needs*
-* *being beautiful*
-* *anticipating the user*
+* *使用体验愉悦*
+* *心流体验*
+* *契合人性需求*
+* *视觉美感*
+* *满足用户预期*
 
-Unlike the characteristics of functional quality, they cannot be checked or
-measured, but they can still be clearly identified. When we encounter them,
-we usually (not always, because we need to be capable of it) recognise
-them.
+与功能质量的特征不同，这些特质无法被直接检验或量化，但仍能被明确辨识。当我们遇到它们时通常能够识别出来（并非总能如此，因为这需要相应的感知能力）。 
 
-They are characteristics of *deep quality*.
+它们属于 **深层质量** 的特征。
 
 
-What's the difference?
+区别何在？
 ---------------------------------------------------------------
 
-Aspects of deep quality seem to be genuinely distinct in kind from the
-characteristics of functional quality.
+深层质量的某些方面似乎与功能质量的特征存在本质上的差异。
 
-Documentation can meet all the demands of functional quality, and still fail
-to exhibit deep quality. There are many examples of documentation that is
-accurate and consistent (and even very useful) but which is also awkward and
-unpleasant to use.
+技术文档即使满足功能质量的所有要求，仍可能无法体现深层质量。存在大量文档案例——它们准确且一致（甚至非常实用），但使用起来依然笨拙且令人不适。
 
-It's also noticeable that while characteristics of functional quality such as
-completeness and accuracy are **independent** of each other, those of deep
-quality are hard to disentangle. *Having flow* and *anticipating the user*
-are aspects of each other - they are **interdependent**. It's hard to see how
-something could feel good to use without fitting to our needs.
+同样值得注意的是，功能质量特性（如完整性与准确性）彼此 **独立**，而深层质量特性则难以割裂。 *心流体验* 与 *用户预期* 实为一体两面——它们具有 **相互依存性**。很难想象一个不符合需求的产品能带来良好的使用体验。
 
-Aspects of functional quality can be measured - literally, with numbers, in
-some cases (consider completeness). That's clearly not possible with
-qualities such as *having flow*. Instead, such qualities can only be enquired
-into, interrogated. Instead of taking **measurements**, we must make
-**judgements**.
+功能质量的某些方面可以被量化——在某些情况下（比如完整性）甚至可以用具体数字衡量。但对于 *心流体验* 这类特质则显然无法如此。相反，这类特质只能通过探究和审视来把握。我们无法进行 **量化测量**，而必须做出 **主观判断**。
 
-Functional quality is **objective** - it belongs to the world. Accuracy of
-documentation means the extent to which it conforms to the world it’s trying
-to describe. Deep quality can’t be ascertained by holding something up to the
-world. It’s **subjective**, which means that we can assess it only in the light
-of the needs of the subject of experience, the human.
+功能质量具有 **客观性**——它属于客观世界的范畴。文档的准确性指的是其与所描述客观世界的吻合程度。而深层质量无法通过对照客观世界来确认，它是 **主观的**，这意味着我们只能根据体验主体——人类——的需求来进行评估。
 
-And, deep quality is **conditional** upon functional quality. Documentation
-can be accurate and complete and consistent without being truly excellent -
-but it will never have deep quality without being accurate and complete and
-consistent. No user of documentation will experience it as beautiful, if it's
-inaccurate, or enjoy the way it anticipates their needs if it's inconsistent.
-The moment we run into such lapses the experience of documentation is
-tarnished.
+此外，深层质量以功能质量 **为基础**。文档可以做到准确、完整、一致，却未必真正卓越——但若缺乏准确性、完整性和一致性，则永远无法获得深层质量。当文档存在错误时，用户绝不会感受到其美感；当内容自相矛盾时，用户更无法享受其预判需求的妙处。一旦遭遇此类缺陷，文档的体验价值便会黯然失色。
 
-Finally, all of the characteristics of functional quality appear to us, as
-documentation creators, as burdens and **constraints**. Each one of them
-represents a test or challenge we might fail. Or, even if we have met
-one *now*, we can never rest, because the next release or update means that
-we'll have to check our work once again, against the thing that it's
-documenting. Characteristics such as anticipating needs or flow, on the other
-hand, represent **liberation**, the work of creativity or taste. To attain
-functional quality in our work, we must *conform* to constraints; to attain
-deep quality we must *invent*.
+最后，作为文档创作者，功能质量的所有特性在我们看来都像是负担和 **约束**。每一项特性都代表着一个我们可能失败的考验或挑战。即便我们 *此刻* 满足了某一要求，也永远不能松懈，因为下一个版本或更新意味着我们必须再次对照所记录的内容检查工作。相反，预见需求或心流等特性则代表着 **解放**，是创造力与审美的工作。要实现工作的功能质量，我们必须 *遵从* 约束；而要获得深层质量，我们必须 *进行创造*。
 
 .. list-table::
    :header-rows: 1
 
-   * - Functional quality
-     - Deep quality
-   * - independent characteristics
-     - interdependent characteristics
-   * - objective
-     - subjective
-   * - measured against the world
-     - assessed against the human
-   * - a condition of deep quality
-     - conditional upon functional quality
-   * - aspects of constraint
-     - aspects of liberation
+   * - 功能质量
+     - 深层质量
+   * - 独立特性
+     - 相互依赖特性
+   * - 客观
+     - 主观
+   * - 以现实情况来衡量
+     - 以人为基准进行评估
+   * - 是深层质量的必要条件
+     - 前提是有功能质量
+   * - 约束的维度
+     - 解放的维度
 
 
-How we recognise deep quality
+我们如何识别深层质量
 -----------------------------
 
-Consider how we judge the quality of say, clothing. Clothes must have
-*functional quality* (they must keep us appropriately warm and dry, stand up
-to wear). These things are objectively measurable. You don't really need to
-know much about clothes to assess how well they do those things. If water gets
-in, or the clothing falls apart - it lacks quality.
+以服装为例，我们如何评判其质量？衣物必须具有 *功能质量*（必须能让我们保持适宜的温暖干燥，并耐穿）。这些特性是可客观衡量的。您其实不需要对服装了解太多，就能评估这些功能的实现程度。如果衣物渗水或破损——就说明质量欠佳。
 
-There are other characteristics of quality in clothing that can't simply be
-measured objectively, and to recognise those characteristics, we need to have
-an understanding of clothing. The quality of materials or workmanship isn't
-always immediately obvious. Being able to judge that an item of clothing
-hangs well, moves well or has been expertly shaped requires developing at
-least a basic eye for those things. And these are its characteristics
-of *deep quality*.
+服装质量还存在其他无法简单客观衡量的特性，要识别这些特性，我们需要对服装具备一定认知。面料品质或工艺水准并非总能一目了然。要判断一件衣物是否垂坠自然、活动自如或剪裁精湛，至少需要培养对这些要素的基本鉴赏力——这些正是其 *深层质量* 的体现。
 
-But: even someone who can't recognise, or fails to understand, those
-characteristics - who cannot say *what* they are - can still recognise very
-well *that* the clothing is excellent, because they find it that **it feels
-good to wear**, because it's such that they want to wear it. No expertise is
-required to realise that clothing does or doesn't feel comfortable as you
-move in it, that it fits and moves with you well. *Your body knows it*.
+但是：即便是那些无法识别或理解这些特性的人——那些说不出特性 *具体是什么* 的人——依然能很好地认识到 *这件衣服非常出色*，因为他们发现 **穿着体验极佳**，因为它让人产生持续穿着的欲望。要意识到服装在活动时是否舒适、是否合身且随体而动，并不需要专业知识。 *你的身体自会知晓*。
 
-And it's the same in documentation. Perhaps you need to be a connoisseur to
-recognise *what* it is that makes some documentation excellent, but that's
-not necessary to be able to realise *that* it is excellent. Good
-documentation **feels good**; you feel pleasure and satisfaction when you use
-it - it feels like it fits and moves with you.
+文档领域亦是如此。或许您需要成为行家才能 *辨识* 优秀文档的特质所在，但感知其优秀却无需此般造诣。优秀文档自带良好体验——使用时您会感到 **愉悦与满足**，仿佛它完美贴合您的需求并随需而动。
 
-The users of our documentation may or may not have the understanding to say
-why it's good, or where its quality lapses. They might recognise only the
-more obvious aspects of functional quality in it, mistaking those for its
-deeper excellence. That doesn't matter - it will feel good, or not, and
-that's what is important.
+我们的文档用户或许能、或许不能明确说出其优秀之处或质量缺陷。他们可能仅能识别其中较明显的功能质量层面，误将其当作深层优势。这并不重要——关键在于它是否让人感到好用，这才是核心所在。
 
-But we, as its creators, need a clear and effective understanding of what
-makes documentation good. We need to develop our sense of it so that we
-recognise *what* is good about it, as well as *that* it is good. And we need
-to develop an understanding of how people will *feel* when they're using it.
+但作为文档的创造者，我们需要清晰有效地理解优秀文档的构成要素。必须培养对其的感知力，既能认识到文档 *好在何处*，也能辨识出 *其优秀之处*。更需要理解用户在使用过程中将产生怎样的 *感受*。
 
-Producing work of deep quality depends on our ability to do this.
+产出高质量作品取决于我们实现这一点的能力。
 
 
-Diátaxis and quality
+Diátaxis 与质量
 --------------------
 
-Functional quality's obligations are met through conscientious observance of
-the demands of the craft of documentation. They require solid skill and
-knowledge of the technical domain, the ability to gather up a complete
-terrain into a single, coherent, consistent map of it.
+功能质量的实现，源于对文档创作技艺要求的恪守。这需要扎实的技术领域技能与知识储备，以及将庞杂信息整合为一张连贯统一认知图谱的能力。
 
-**Diátaxis cannot address functional quality in documentation.** It is concerned
-only with certain aspects of deep quality, some more than others - though if
-all the aspects of deep quality are tangled up in each other, then it affects
-all of them.
+**Diátaxis 无法解决文档中的功能质量问题**。它仅关注深层质量的某些方面（其中部分维度更为侧重）——不过若所有深层质量要素相互纠缠，那么它就会对所有要素产生影响。
 
 
-Exposing lapses in functional quality
+暴露功能质量缺陷
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Although Diátaxis cannot address, or *give* us, functional quality, it can
-still serve it.
+虽然 Diátaxis 无法解决或*赋予*我们功能质量，但它依然能够服务于功能质量。
 
-It works very effectively to *expose* lapses in functional quality. It's often
-remarked that one effect of applying Diátaxis to existing documentation is
-that problems in it suddenly become apparent that were obscured before.
+它在 *暴露* 功能质量缺陷方面非常有效。人们常注意到，将 Diátaxis 应用于现有文档的一个效果是：那些先前被掩盖的问题会突然变得显而易见。
 
-For example: the Diátaxis approach recommends that :ref:`the architecture of
-reference documentation should reflect the architecture of the code it
-documents <respect-structure>`. This makes gaps in the documentation much
-more clearly visible.
+例如：Diátaxis 方法建议，:ref:`参考手册的架构应反映其所记录代码的架构 <respect-structure>`。这使得文档中的缺失部分更加清晰可见。
 
-Or, moving explanatory verbiage out of a tutorial (in accordance with Diátaxis
-demands) often has the effect of highlighting a section where the reader has
-been left to work something out for themselves.
+或者，按照 Diátaxis 的要求将概念解析性文字移出教程时，往往会凸显出某个需要读者自行领悟的章节。
 
-But, as far as functional quality goes, Diátaxis principles can have only an
-*analytical* role.
+但从功能质量的角度来看，Diátaxis 原则只能起到 *分析* 作用。
 
 
-Creating deep quality
+打造深层质量
 ~~~~~~~~~~~~~~~~~~~~~
 
-In deep quality on the other hand, the Diátaxis approach can do more.
+另一方面，在深层质量方面，Diátaxis 方法能发挥更大作用。
 
-For example, it helps documentation *fit user needs* by describing
-documentation modes that are based on them; its categories exist as a
-response to needs.
+例如，它通过基于用户需求描述文档模式，帮助文档 *契合用户需求*；其分类体系正是为响应这些需求而存在。
 
-We must pay attention to the correct organisation of these categories then,
-and the arrangement of its material and the relationships within them, the
-form and language adopted in different parts of documentation - as a way
-of fitting to user needs.
+因此，我们必须注重这些类别的正确组织、材料的编排及其内部关联，以及文档不同部分所采用的形式和语言——以此作为适应用户需求的方式。
 
-Or, in Diátaxis we are directly concerned with *flow*. In flow - whether the
-context is documentation or anything else - we experience a movement from one
-stage or state to another that seems right, unforced and in sympathy with
-both our concerns of the moment, and the way our minds and bodies work in
-general.
+或者说，在 Diátaxis 体系中我们直接关注的是 *心流*。处于心流状态时——无论是文档编写还是其他场景——我们会体验到一种自然而然的阶段或状态转换，这种转换既契合当下的需求，也符合我们身心运作的普遍规律。
 
-Diátaxis preserves flow by helping prevent the kind of disruption of rhythm
-that occurs when something runs across our purpose and steady progress
-towards it (for example when a digression into explanation interrupts a
-how-to guide).
+Diátaxis 通过避免节奏紊乱来保持心流，这种紊乱往往发生在某些事物偏离我们的目标及对其的稳步推进时（例如当操作指南中突然插入概念解析性内容造成中断）。
 
-And so on.
+诸如此类。
 
 
-Understanding the limits
+理解局限性
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-It's important to understand that Diátaxis can never be *all* that is
-required in the pursuit of deep quality.
+需要理解的是，在追求深度质量的过程中，Diátaxis 永远不可能满足*所有*要求。
 
-For example, while it can *help* attain beauty in documentation, at least in
-its overall form, it doesn't by itself *make documentation beautiful*.
+例如，虽然它能够 *帮助* 实现文档的美观性（至少在其整体形式上），但其本身并不能 *让文档变得美观*。
 
-Diátaxis offers a set of principles - it doesn't offer a formula. It certainly
-cannot offer a short-cut to success, bypassing the skills and insights of
-disciplines such as user experience or user interaction design, or even
-visual design.
+Diátaxis 提供了一套原则体系——而非固定公式。它绝不可能绕过用户体验、用户交互设计乃至视觉设计等专业领域的技能与洞察，成为通往成功的捷径。
 
-Using Diátaxis does not guarantee deep quality. The characteristics of deep
-quality are forever being renegotiated, reinterpreted, rediscovered and
-reinvented. But what Diátaxis *can* do is lay down some conditions for the
-*possibility* of deep quality in documentation.
+采用 Diátaxis 并不能保证深度质量。深度质量的特征始终处于重新协商、重新诠释、重新发现和重新定义的过程中。但 Diátaxis *能够*做到的，是为实现文档深度质量的*可能性*奠定基础。
 
