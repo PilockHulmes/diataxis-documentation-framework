@@ -24,7 +24,7 @@ Diátaxis 致力于将文档实践建立在更严谨的理论基础之上。
 
 以下页面深入探讨支撑 Diátaxis 框架的核心思想：
 
-* :doc:`foundations` - Diátaxis *为何*有效
+* :doc:`foundations` - Diátaxis *为何* 有效
 * :doc:`map` - 文档的两种维度划分
 * :doc:`quality`
 
