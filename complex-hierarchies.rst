@@ -5,268 +5,212 @@
 
 .. _basic-structure:
 
-Structure of documentation content
+文档内容结构
 ----------------------------------
 
-The application of Diátaxis to most documentation is fairly straightforward.
-The product that defines the domain of concern has clear boundaries, and it's
-possible to come up with an arrangement of documentation contents that looks - for example - like this:
+将 Diátaxis 框架应用于大多数文档编制工作是相当直观的。定义关注领域的产品具有明确边界，因此可以构建出类似这样的文档内容编排体系：
 
 .. code-block:: text
 
-    Home                      <- landing page
-        Tutorial              <- landing page
-            Part 1
-            Part 2
-            Part 3
-        How-to guides         <- landing page
-            Install
-            Deploy
-            Scale
-        Reference             <- landing page
-            Command-line tool
-            Available endpoints
+    主页               <- 着陆页面
+        教程           <- 着陆页面
+            第一节
+            第二节
+            第三节
+        操作指南        <- 着陆页面
+            安装
+            部署
+            扩容
+        参考手册        <- 着陆页面
+            命令行工具
+            可用端点
             API
-        Explanation           <- landing page
-            Best practice recommendations
-            Security overview
-            Performance
+        概念解析        <- 着陆页面
+            最佳实践
+            安全总览
+            性能优化
 
-In each case, a landing page contains an overview of the contents within. The
-tutorial for example describes what the tutorial has to offer, providing
-context for it.
+每种情况下，着陆页都包含内容的概述。例如，教程会描述该教程提供的内容，并为其提供背景信息。
 
-Adding a layer of hierarchy
+添加层级结构
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Even very large documentation sets can use this effectively, though after a
-while some grouping of content within sections might be wise. This can be done
-by adding another layer of hierarchy - for example to be able to address
-different installation options separately:
+即使是非常庞大的文档集也能有效运用此结构，但经过一段时间后，对章节内的内容进行分组可能更为明智。这可以通过添加额外的层级结构来实现——例如，以便能够分别处理不同的安装选项：
 
 ..  code-block:: text
     :emphasize-lines: 7-11
 
-    Home                      <- landing page
-        Tutorial              <- landing page
-            Part 1
-            Part 2
-            Part 3
-        How-to guides         <- landing page
-            Install           <- landing page
-                Local installation
+    主页               <- 着陆页面
+        教程           <- 着陆页面
+            第一节
+            第二节
+            第三节
+        操作指南        <- 着陆页面
+            安装        <- 着陆页面
+                本地安装
                 Docker
-                Virtual machine
-                Linux container
-            Deploy
-            Scale
-        Reference             <- landing page
-            Command-line tool
-            Available endpoints
+                虚拟机
+                Linux 容器
+            部署
+            扩容
+        参考手册        <- 着陆页面
+            命令行工具
+            可用端点
             API
-        Explanation           <- landing page
-            Best practice recommendations
-            Security overview
-            Performance
+        概念解析        <- 着陆页面
+            最佳实践
+            安全总览
+            性能优化
 
 
-Contents pages 
+目录页
 --------------
 
-Contents pages - typically a home page and any landing pages - provide an overview of the material they encompass.
+目录页——通常指首页和任何着陆页——概述了其所涵盖的内容。  
 
-There is an art to creating a good contents page. The experience they give the users deserves careful consideration.
+创建优秀的目录页是一门艺术，其赋予用户的体验值得仔细斟酌。
 
 
-The problem of lists
+列表的问题
 ~~~~~~~~~~~~~~~~~~~~
 
-Lists longer than a few items are very hard for humans to read, unless they
-have an inherent mechanical order - numerical, or alphabetical. *Seven items
-seems to be a comfortable general limit.* If you find that you're looking at
-lists longer than that in your tables of contents, you probably need to find a way to
-break them up into small ones.
+超过几个项目的列表对人类而言非常难以阅读——除非它们具有固有的机械顺序（数字或字母顺序）。 *七个项目似乎是普遍适用的舒适上限。* 如果您发现目录中的列表超出此长度，很可能需要设法将其拆分为多个小列表。
 
-As always, what matters most is **the experience of the reader**. Diátaxis works
-because it fits user needs well - if your execution of Diátaxis leads you to
-formats that seem uncomfortable or ugly, then you need to use it
-differently.
+一如既往，最重要的是 **读者的体验** 。Diátaxis之所以有效，是因为它很好地契合了用户需求——如果您对Diátaxis的实施导致出现令人不适或拙劣的格式，就需要调整使用方式。
 
-Overviews and introductory text
+概述与介绍性文本
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**The content of a landing page itself should read like an overview.**
+**着陆页本身的内容应呈现为概述形式。**
 
-That is, it should not simply present lists of other content, it should
-introduce them. *Remember that you are always authoring for a human user, not
-fulfilling the demands of a scheme.*
+也就是说，它不应简单地罗列其他内容，而应对其进行引导说明。 *请始终牢记：您创作的对象是人类用户，而非满足某种框架的机械要求。*
 
-Headings and snippets of introductory text catch the eye and provide context;
-for example, a **how-to landing page**:
+标题与引导性文本片段能迅速吸引视线并提供上下文；例如， **操作指南类着陆页** ：
 
 ..  code-block:: text
 
-    How to guides
+    操作指南
     =============
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-    Installation guides
+    安装指南
     -------------------
 
     Pellentesque malesuada, ipsum ac mollis pellentesque, risus 
     nunc ornare odio, et imperdiet dui mi et dui. Phasellus vel 
     porta turpis. In feugiat ultricies ipsum.
 
-    * Local installation       |
-    * Docker                   |  links to
-    * Virtual machines         |  the guides
-    * Linux containers         |
+    * 本地安装        |
+    * Docker         | 指南的链接
+    * 虚拟机          | 
+    * Linux 容器      |
 
-    Deployment and scaling
+    部署与扩容
     -----------------------
 
     Morbi sed scelerisque ligula. In dictum lacus quis felis 
     facilisisvulputate. Quisque lacinia condimentum ipsum 
     laoreet tempus.
 
-    * Deploy an instance       |  links to
-    * Scale your application   |  the guides
+    * 部署单个实例    | 指南的链接
+    * 扩展您的应用    | 
 
 
-Two-dimensional problems
+二维问题
 ------------------------
 
-A more difficult problem is when the structure outlined by Diátaxis meets
-another structure - often, a structure of topic areas within the
-documentation, or when documentation encounters very different user-types.
+当 Diátaxis 框架所勾勒的结构遭遇另一种结构时——通常是文档内部的主题领域结构，或是当文档面对截然不同的用户类型时——问题就变得更为复杂。
 
-For example we might have a product that is used on land, sea and air, and
-though the same product, is used quite differently in each case. And it could
-be that a user who uses it on land is very unlikely to use it at sea.
+例如，某款产品可能同时应用于陆地、海洋和空中三大场景。尽管是同一款产品，但在不同场景下的使用方式却存在显著差异。很可能出现的情况是：在陆地上使用该产品的用户，基本不会在海洋环境中使用它。
 
-Or, the product documentation addresses the needs of:
+或者，该产品文档可满足以下用户群体的需求：
 
-* users
-* developers who build other products around it
-* the contributors who help maintain it.
+* 终端用户
+* 围绕该产品进行二次开发的开发者
+* 协助维护项目的贡献者
 
-The same product, but very different concerns.
+同一款产品，却面临着截然不同的关注点。
 
-A final example: a product that can be deployed on different public clouds,
-with each public cloud presenting quite different workflows, commands, APIs,
-GUIs, constraints and so on. Even though it's the same product, as far as the
-users in each case are concerned, what they need to know and do is very
-different - what they need is documentation not for *product*,
-but
+最后一个示例：某个可部署在不同公有云上的产品，每个公有云提供的工作流、命令、API、图形界面和约束条件等都大相径庭。尽管是同一个产品，但对不同场景的用户而言，他们需要了解和执行的操作却截然不同——他们需要的不是针对*产品*的文档，而是
 
-* *product-on-public-cloud-one*
-* *product-on-public-cloud-two*
-* and so on...
+* *公有云一号平台专属产品文档*
+* *公有云二号平台专属产品文档*
+* 以此类推...
 
-So, we *could* decide on an overall structure that does this:
+因此，我们 *可以* 确定采用以下整体结构：
 
 .. code-block:: text
 
-    tutorial
-        for users on land
+    教程
+        面向陆地用户
             [...]
-        for users at sea
+        面向海上用户
             [...]
-        for users in the air
+        面向空中用户
             [...]
-    [and then so on for how-to guides, reference and explanation]
+    [后续按此模式输出操作指南、参考手册和概念解析说明]
 
-or maybe instead this:
+或可考虑采用以下替代结构：
 
 .. code-block:: text
 
-    for users on land
-        tutorial
+    面向陆地用户
+        教程
             [...]
-        how-to guides
+        操作指南
             [...]
-        reference
+        参考手册
             [...]
-        explanation
+        概念解析
             [...]
-    for users at sea
-        [tutorial, how-to, reference, explanation sections]
-    for users in the air
-        [tutorial, how-to, reference, explanation sections]
+    面向海上用户
+        [教程、操作指南、参考手册、概念解析章节]
+    面向空中用户
+        [教程、操作指南、参考手册、概念解析章节]
 
-Which is better? There seems to be a lot of repetition in either cases. What
-about the material that can be shared between land, sea and air?
+哪种方式更好？两种方案似乎都存在大量重复内容。那么陆地、海上和空中用户可共享的材料该如何处理？
 
 
-What *is* the problem?
+问题 *是* 什么？
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Firstly, the problem is in no way limited to Diátaxis - there would be the
-difficulty of managing documentation in any case. However, Diátaxis certainly
-helps reveal the problem, as it does in many cases. It brings it into focus
-and demands that it be addressed.
+首先，这个问题绝不局限于 Diátaxis——无论如何，管理文档都存在困难。然而，Diátaxis 确实有助于揭示问题（正如其在许多场景中发挥的作用），它让问题聚焦并要求得到解决。
 
-Secondly, the question highlights a common misunderstanding. Diátaxis is not a
-scheme into which documentation must be placed - four boxes. It posits four
-different kinds of documentation, around which documentation should be
-structured, but this does not mean that there must be simply four divisions
-of documentation in the hierarchy, one for each of those categories.
+其次，这个问题揭示了一个常见误解。Diátaxis 并非强制要求文档必须套用“四个盒子”的框架。它提出了四种不同的文档类型作为文档组织的核心架构，但这并不意味着必须在层级结构中简单划分出四个文档分区来分别对应这些类别。
 
 
-Diátaxis as an approach
+Diátaxis 作为一种方法
 ------------------------------------------
 
-Diátaxis can be neatly represented in a diagram - but it is not
-the *same* as that diagram.
+Diátaxis 可以通过图表清晰呈现——但它并不 *等同* 于该图表。
 
-It should be understood as an approach, a way of working with documentation,
-that identifies four different needs and uses them to author and structure
-documentation effectively.
+它应被理解为一套方法论，一种文档处理方式，通过识别四种不同需求来有效编写和组织文档。
 
-This will *tend* towards a clear, explicit, structural division into the four
-categories - but that is a typical outcome of the good practice, not its
-end.
+这将 *趋向* 于清晰、明确、结构性地划分为四个类别——但这是良好实践的典型结果，而非其最终目的。
 
 
-User-first thinking
+以用户为中心的思维
 ------------------------------------------
 
-**Diátaxis is underpinned by attention to user needs**, and once again it's that
-concern that must direct us.
+**Diátaxis 的核心理念是对用户需求的关注** ，而正是这种关注必须始终指引我们的方向。
 
-What we must document is the product *as it is for the user*, the product as
-it is in their hands and minds. (Sadly for the creators of products, how they
-conceive them is much less relevant.)
+我们必须记录的是*用户实际接触到的产品*，是用户手中和认知中的产品形态。（令产品创造者遗憾的是，他们构想产品的方式其实远没有那么重要。）
 
-Is the product on land, sea and air effectively three different products,
-perhaps for three different users?
+该产品在陆地、海洋和空中是否本质上对应三种不同的产品形态，可能面向三类不同的用户？  
 
-In that case, let that be the starting point for thinking about it.
+若是如此，这应当成为我们思考的出发点。
 
-If the documentation needs to meet the needs of users, developers and
-contributors, how do *they* see the product? Should we assume that a
-developer who incorporates it into other products will typically need a good
-understanding of how it's used, and that a contributor needs to know what
-a developer knows too?
+若文档需同时满足用户、开发者及贡献者的需求，那么*他们*究竟如何看待产品？我们是否应当假设：将其集成至其他产品的开发者通常需要深入理解其使用方式，而贡献者同样需要掌握开发者所知晓的知识？
 
-Then perhaps it makes sense to be freer with the structure, in some parts
-(say, the tutorial) allowing the developer-facing content to follow on from
-the user-facing material, while completely separating the contributors' how-to
-guides from both.
+那么或许可以更灵活地安排文档结构：在某些部分（例如教程），允许面向开发者的内容承接面向用户的内容；同时将贡献者操作指南与这两类内容完全分离。
 
-And so on. If the structure is not :ref:`the simple, uncomplicated structure we
-began with <basic-structure>`, that's not a problem - as long as there *is*
-arrangement according to Diátaxis principles, that documentation does not
-muddle up its different forms and purposes.
+以此类推。即便文档结构并非 :ref:`我们最初设想的简单形式 <basic-structure>` 也无需担忧——只要遵循 Diátaxis 原则进行编排，文档就不会混淆其不同的形式与用途。
 
 
-Let documentation be complex if necessary
+必要时允许文档保持复杂
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Documentation should be as complex as it needs to be. It will sometimes
-have complex structures. 
+文档应保持必要的复杂度。有时它会呈现复杂的结构。
 
-But, even complex structures can be made
-straightforward to navigate as long as they are logical and incorporate
-patterns that fit the needs of users.
+但是，只要结构符合逻辑并融入适应用户需求的模式，即使复杂的结构也能变得直观易用。

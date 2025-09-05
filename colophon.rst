@@ -1,56 +1,52 @@
 后记
 ========
 
-Diátaxis is the work of `Daniele Procida <https://vurt.eu>`_.
+Diátaxis 是 `Daniele Procida <https://vurt.eu>`_ 的成果。
 
-It has been developed over a number of years, and continues to be elaborated and explored.
+该框架历经多年发展，且仍在持续完善与探索中。
 
 
 .. _contact:
 
-Contact me
+联系我
 ----------
 
-`Email me <daniele@vurt.org>`_. I enjoy hearing about other people's experiences with Diátaxis and read everything I receive. 
+`给我发邮件 <daniele@vurt.org>`_ 。我很乐意了解其他人使用 Diátaxis 的体验，并会阅读收到的所有邮件。
 
-I appreciate all the interest and do my best to reply, but I get a considerable quantity of email related to Diátaxis and I can't promise to respond to every message.
+感谢各位的关注，我会尽力回复，但关于 Diátaxis 的邮件数量庞大，无法保证每封必复。
 
-If you'd like to discuss Diátaxis with other users, please see the *#diataxis* channel on the
-`Write the Docs Slack group <https://www.writethedocs.org/slack/>`_, or the `Discussions
-<https://github.com/evildmp/diataxis-documentation-framework/discussions>`_ section of the `GitHub
-repository for this website <https://github.com/evildmp/diataxis-documentation-framework>`_.
+若希望与其他用户探讨 Diátaxis 文档框架，请前往以下平台参与讨论：  
+    * `Write the Docs Slack 工作组 <https://www.writethedocs.org/slack/>`_ 中的 *#diataxis* 频道  
+    * 本网站 `GitHub 代码库 <https://github.com/evildmp/diataxis-documentation-framework>`_ 的 `讨论区 <https://github.com/evildmp/diataxis-documentation-framework/discussions>`_
 
 
-Origins and development
+起源与发展
 -----------------------
 
-You can find `an earlier presentation of some of these ideas <https://documentation.divio.com>`_, that I created while working at Divio between 2014-2021. I still agree with most of it, though there are several aspects that I now think I got wrong.
+您可以在 Divio 2014-2021 年间的文档中找到 `我早期提出的部分理念 <https://documentation.divio.com>`_。虽然如今我认为其中某些观点存在谬误，但大部分内容我仍持认同态度。
 
-The original context for the Diátaxis approach was limited to software product documentation. 
+Diátaxis 方法最初的应用场景仅限于软件产品文档领域。
 
-In 2021 I was awarded a Fellowship of the `Software Sustainability Institute <http://software.ac.uk/blog/sorry-state-usable-software-open-science-results-open-science-retreat>`_, to explore its application in scientific research contexts. More recently I've explored its application in internal corporate documentation, organisational management and education, and also its application at scale. This work is on-going.
+2021年，我被授予 `软件可持续性研究所 <http://software.ac.uk/blog/sorry-state-usable-software-open-science-results-open-science-retreat>`_ 研究员称号，致力于探索该方法在科学研究场景中的应用。近期我将研究范围拓展至企业内部文档、组织管理及教育领域，并探索其规模化应用实践。此项工作目前仍在持续进行中。
 
-Other people have corresponded with me to share their experience of applying Diátaxis to note-taking systems and even as part of a systematic approach to household management.
+也有其他人与我通信，分享他们应用 Diátaxis 构建笔记系统的经验，甚至将其作为家庭管理体系化方案的一部分。
 
 
-Citation and contribution  
+引用与贡献
 -------------------------
 
-To cite Diátaxis, please refer to :doc:`this website, diataxis.fr <index>`.
+如需引用 Diátaxis 框架，请参阅 :doc:`官方网站 diataxis.fr <index>`。
 
-The Git repository for the source material contains a citation file, `CITATION.cff
-<https://github.com/evildmp/diataxis-documentation-framework/blob/main/CITATION.cff>`_.
+该源材料的 Git 仓库包含引用文件 `CITATION.cff <https://github.com/evildmp/diataxis-documentation-framework/blob/main/CITATION.cff>`_。
 
-APA and BibTeX metadata are available from the *Cite this repository* option at
-https://github.com/evildmp/diataxis-documentation-framework.
+APA 与 BibTeX 元数据可通过 https://github.com/evildmp/diataxis-documentation-framework 页面的「引用此仓库」选项获取。
 
-You can also submit a pull request to suggest an improvement or correction, or `file an issue
-<https://github.com/evildmp/diataxis-documentation-framework/issues>`_.
+您也可以通过提交拉取请求来建议改进或修正，或通过 `提交问题 <https://github.com/evildmp/diataxis-documentation-framework/issues>`_ 进行反馈。
 
-Diátaxis is now used in several hundred projects and it is no longer possible for me to keep up with requests to have projects listed here as examples of Diátaxis adoption. 
+目前已有数百个项目采用 Diátaxis 框架，我已无法逐一响应将项目添加至 Diátaxis 应用案例列表的请求。
 
 
-Website
+网站
 -------
 
-This website is built with `Sphinx <https://www.sphinx-doc.org>`_ and hosted on `Read the Docs <http://readthedocs.org>`_, using a modified version of `Pradyun Gedam <https://pradyunsg.me/>`_'s `Furo <https://github.com/pradyunsg/furo>`_ theme.
+本网站使用 `Sphinx <https://www.sphinx-doc.org>`_ 构建，并托管于 `Read the Docs <http://readthedocs.org>`_ 平台，采用基于 `Pradyun Gedam <https://pradyunsg.me/>`_ 开发的 `Furo <https://github.com/pradyunsg/furo>`_ 主题修改后的版本。
