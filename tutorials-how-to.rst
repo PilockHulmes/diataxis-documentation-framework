@@ -153,104 +153,75 @@ Diátaxis 坚持认为文档的关键在于用户需求，只有关注这一点�
 
     ..  grid-item::
 
-        In a tutorial, **responsibility lies with the teacher**. If the learner gets into trouble, that's the teacher's problem
-        to put right.
+        在教程中， **责任在于教师**。如果学习者遇到问题，这正是需要教师解决的问题。
 
     ..  grid-item::
 
-        In a how-to guide, **the user has responsibility** for getting themselves in and out of trouble.
+        在操作指南中， **用户需自行承担** 陷入困境和解决问题的责任。
 
     ..  grid-item::
 
-        The learner **may not even have sufficient competence to ask the questions** that a tutorial answers.
+        学习者 **甚至可能没有足够的能力提出** 教程所要解答的问题。
 
     ..  grid-item::
 
-        A how-to guide can assume that **the user is asking the right questions in the first
-        place**.
+        操作指南可以默认 **用户从一开始就在提出正确的问题**。
 
     ..  grid-item::
 
-        The tutorial is **explicit about basic things** - where to do things, where to put them, how to manipulate objects. It
-        addresses the embodied experience - in our medical example, how hard to press, how to hold an implement; in a software
-        tutorial, it could be where to type a command, or how long to wait for a response.
+        教程会 **明确说明基础操作**——在何处执行操作、将内容置于何处、如何操控对象。它关注具身体验——以医疗示例为例，会说明按压力度、器械持握方式；在软件教程中，则可能是输入命令的位置或等待响应的时间。
 
     ..  grid-item::
 
-        A how-to guide relies on this as **implicit knowledge** - even bodily knowledge.
+        操作指南将这些视为 **默认知识**——甚至是本能。
 
     ..  grid-item::
 
-        A tutorial is **concrete and particular** in its approach. It refers to the specific, known, defined tools, materials,
-        processes and conditions that we have carefully set before the learner.
+        教程采用 **具体而特定** 的实施方式，它严格限定学习者使用预先设定的特定工具、材料、流程及操作环境。
 
     ..  grid-item::
 
-        The how-to guide has to take a **general** approach: many of these things will be
-        unknowable in advance, or different in each real-world case.
+        操作指南则必须采用 **通用** 方法：这些要素中有许多无法提前预知，或在真实应用场景中存在差异。
 
     ..  grid-item::
 
-        The tutorial **teaches general skills and principles** that later could be applied to a
-        multitude of cases.
+        教程 **教授通用技能与原则**，后续可应用于多种场景。
 
     ..  grid-item::
 
-        The user following a how-to guide is doing so in order to **complete a particular task**.
+        用户遵循操作指南的目的是为了 **完成特定任务**。
 
-None of these distinctions are arbitrary. They all emerge from the distinction between **study** and **work**, which we
-understand as a key distinction in making sense of what the user of documentation needs.
-
+这些区分并非任意为之，它们都源于 **学习** 与 **工作** 之间的根本差异——我们将这一差异视为理解文档用户需求的关键分野。
 
 
-The basic and the advanced
+
+基础与进阶
 --------------------------
 
-A common but understandable conflation is to see the difference between tutorials and how-to guides as being the difference
-between **the basic** and **the advanced**.
+一个常见但可以理解的混淆是：将教程与操作指南之间的差异视为 **基础** 与 **进阶** 之间的区别。
 
-After all, tutorials are for learners, while how-to guides are for already-skilled practitioners. Tutorials must cover
-the basics, while how-to guides have to deal with complexities that learners should not have to face.
+毕竟，教程面向学习者，而操作指南则面向已掌握技能的实际工作者。教程必须涵盖基础知识，而操作指南则需处理学习者不应面对的复杂问题。
 
-However, there’s more to the story. Consider a clinical procedure manual: it could be a manual for a basic routine
-procedure, of very low complexity. It could describe steps for mundane matters such as correct completion of paperwork
-or disposal of particular materials. *How-to guides can, do and often should cover basic procedures.*
+然而，事情并非如此简单。以临床操作手册为例：它可能是一份基础常规操作手册，复杂度极低。这类手册可能涉及琐碎事项的操作步骤，例如如何正确填写文书或处理特定材料。 *操作指南能够、确实且经常应该涵盖基础操作流程。*
 
-At the same time, even as a qualified doctor, you will find yourself back in training situations. Some of them may be
-very advanced and specialised, requiring a high level of skill and expertise already.
+与此同时，即使作为一名合格的医生，您也会发现自己需要重新接受培训。其中一些培训可能涉及高度专业化的高级内容，这本身就需要具备高超的技能和专业知识。
 
-Let’s say you’re an anaesthetist of many years’ experience, who attends a course: “Difficult neonatal intubations”. The
-practical part of the course will be a learning experience: a lesson, safely in the hands of the instructors, that will
-have you performing particular exercises to develop your skills - just as it was when years earlier, you were learning
-to suture your first wound.
+假设您是一位经验丰富的麻醉师，参加名为"新生儿困难插管"的培训课程。其实践环节将是一次学习体验：在指导医师的安全监护下，通过完成特定练习来提升技能——正如多年前您初次学习伤口缝合时的情景。
 
-The complexity is wholly different though, and so is the baseline of skills required even to participate in the
-learning experience. But, it’s of the same form, and serves the same kind of need, as that much earlier lesson.
+其复杂度截然不同，即便是参与学习体验所需的基础技能水平也完全不同。不过，其形式与多年前那堂课相同，满足的也是同类需求。
 
-It’s the same in software documentation: a tutorial can present something complex or advanced. And, a how-to guide can
-cover something that’s basic or well-known. The difference between the two lies in the need they serve: **the user’s
-study**, or **their work**.
+软件文档亦是如此：教程可以呈现复杂或高级的内容，而操作指南也可以涵盖基础或众所周知的内容。两者的区别在于它们服务的需求：用户的 **学习需求**，或是 **工作实际需求**。
 
 
-Safety and success
+安全与成功
 --------------------------
 
-Understanding these distinctions, and the reason for upholding them, is crucial to creating successful documentation. A
-clinical manual that conflated education with practice, that tried to teach while at the same time providing a guide to
-a real-world procedure would be a literally deadly document. It would kill people.
+理解这些区别及其坚持理由，对创建成功的文档至关重要。若某临床手册将教学与实践混为一谈，试图在提供真实操作指南的同时进行教学，这将是一份名副其实的致命文档——它会导致人员伤亡。
 
-In disciplines such as software documentation, we get away with a great deal, because our conflations and mistakes
-rarely kill anyone. However, we can cause a great deal of low-level inconvenience and unhappiness to our users, and we
-add to it, every single time we publish a tutorial or how-to guide that doesn’t understand whether its purpose is to
-help the user in their study - the acquisition of skills - or in their work - the application of skills.
+在软件文档等领域，我们往往能够蒙混过关，因为我们的概念混淆和错误很少造成人员伤亡。然而，每次发布教程或操作指南时，若未能厘清其目的究竟是为了帮助用户学习（技能获取）还是协助用户工作（技能应用），就会给用户带来大量琐碎的不便与困扰，并持续加剧这种负面体验。
 
-What’s more, we hurt ourselves too. Users don’t have to use our product. If our documentation doesn’t bring them to
-success - if it doesn’t meet the needs that they have at a particular stage in their cycle of interaction with our
-product - they will find something else that does, if they can.
+更甚者，我们也在自我伤害。用户并非必须使用我们的产品。如果文档不能引导他们成功——如果未能满足他们在产品交互周期特定阶段的需求——只要存在替代方案，他们就会转向其他能满足需求的解决方案。
 
-The conflation of tutorials and how-to guides is by no means the only one made between different kinds of
-documentation, but it's one of the easiest to make. It's also a particularly harmful one, because it risks getting in
-the way of those newcomers whom we hope to turn into committed users. For the sake of those users, and of our own
-product, getting the distinction right is a key to success.
+将教程与操作指南混为一谈绝非技术文档分类中的唯一混淆，却是最易犯的错误之一。这种混淆尤其有害，因为它可能阻碍我们期望转化为忠实用户的新手群体。为了这些用户和我们自身产品的利益，准确区分二者乃是成功的关键。
 
 

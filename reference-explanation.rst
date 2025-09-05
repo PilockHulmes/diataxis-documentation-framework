@@ -3,77 +3,54 @@
 参考手册与概念解析的区别
 ================================================
 
-Explanation and reference both belong to the *theory* half of the Diátaxis map - they don't contain
-steps to guide the reader, they contain theoretical knowledge.
+概念解析与参考手册同属 Diátaxis 地图的 *理论* 维度——它们不包含指导读者的步骤性内容，而是承载理论知识。
 
-The difference between them is - just as in the difference between tutorials and how-to guides - the
-difference between the *acquisition* of skill and knowledge, and its *application*. In other words
-it's the distinction between *study* and *work*.
+二者的区别在于——正如教程与操作指南之间的差异——是 *获取* 技能知识与 *应用* 这些知识之间的区别。换言之，即是 *学习* 与 *工作* 之间的本质差异。
 
 
-A straightforward distinction, *mostly*
+一个直截了当的区别（ *多数情况* 下如此）
 ----------------------------------------
 
-Mostly it's fairly straightforward to recognise whether you're dealing with one or the other.
-*Reference*, as a form of writing, is well understood; it's used in distinctions we make about
-writing from an early age.
+在大多数情况下，识别正在处理的是哪种文档类型都相当直观。 *参考手册* 作为一种写作形式已被广泛理解；这种区分方式在我们自幼学习写作时就开始使用。
 
-In addition, examples of writing are themselves often clearly one or the other. A tidal chart,
-with its tables of figures, is clearly reference material. An article that explains *why* there
-are tides and how they behave is self-evidently explanation.
+此外，书面示例本身往往也明显属于某一类型。带有数据表格的潮汐图明显属于参考手册，而解释潮汐 *成因* 及其活动规律的文章则显然属于概念解析。
 
-There are good rules of thumb:
+有一些实用的经验法则：
 
-* **If it's boring and unmemorable** it's probably *reference*.
+* 若内容 **枯燥且不易记忆**，很可能属于 *参考手册*。
 
-* **Lists of things** (such as classes or methods or attributes), and **tables of information**, will generally turn out to belong in *reference*.
+* **事物列表** （如类、方法或属性）及 **信息表格** 通常应归入 *参考手册*。
 
-* On the other hand **if you can imagine reading something in the bath**, probably, it's *explanation* (even if really there is no accounting for what people might read in the bath).
+* 反之，若内容 **适合在泡澡时阅读**，则很可能属于 *概念解析*（尽管人们在泡澡时实际阅读的内容确实难以预料）。
 
-Imagine asking a friend, while out for a walk or over a drink, **Can you
-tell me more about <topic>?** - the answer or discussion that follows is
-most likely going to be an *explanation* of it.
+想象一下，在散步或小酌时问朋友： **“能多讲讲<主题>吗？”**——随后的回答或讨论很可能就会变成对它的 *概念解析*。
 
 
-... but intuition isn't reliable enough
+...但直觉并不足够可靠
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mostly we can rely safely on intuition to manage the distinction between
-reference and explanations. But only *mostly* - because it's also quite easy
-to slip between one form and the other.
+多数情况下，我们可以放心依赖直觉来区分参考手册与概念解析性内容。但也只是 *多数情况*——因为这两种形式之间的界限很容易模糊。
 
-It usually happens while writing reference material that starts to become expansive. For example,
-it's perfectly reasonable to include illustrative examples in reference (just as an encyclopaedia
-might contain illustrations) - but examples are fun things to develop, and it can be tempting to
-develop them into explanation (using them to say *why*, or show *what if*, or how it came to be).
+在编写参考手册时，常会遇到内容开始扩展的情况。例如，在参考手册中包含示例是完全合理的（就像百科全书可能包含插图一样）——但示例本身具有开发趣味性，很容易演变为概念解析性内容（用它们说明 *原因*、展示 *假设情况* 或阐述来龙去脉）。
 
-As a result one often finds explanatory material sprinkled into reference. This is bad for the
-reference, interrupted and obscured by digressions. But it's bad for the explanation too, because
-it's not allowed to develop appropriately and do its own work.
+因此，我们常会发现参考手册中散落着概念解析性内容。这对参考手册是有害的——这些离题内容会打断行文脉络并使其晦涩难懂。对概念解析性内容同样不利，因为它无法充分展开并发挥应有的作用。
 
 
-Work and study
+工作与学习
 --------------
 
-The real test, though, if we're in doubt about whether something is supposed to be
-reference or explanation is: is this something someone would turn to while working, that is, while
-actually getting something done, executing a task? Or is it something they'd need once they have
-stepped away from the work, and want to think about it?
+不过，当我们不确定某部分内容应属于参考手册还是概念解析时，真正的检验标准是：用户是在工作时（即实际执行任务、完成某项工作的过程中）查阅这部分内容，还是在脱离工作后需要思考时才用到它？
 
 
-These are two very fundamentally different *needs* of the reader, that reflect how, at that moment,
-the reader stands in relation to the craft in question, in a relationship of *work* or *study*.
+这是读者两种截然不同的根本 *需求*，反映了此刻读者与所讨论技术之间的关系定位——是处于 *工作* 状态还是 *学习* 状态
 
 ..  sidebar::
 
-	To help avoid being misled by intuition, see :ref:`compass`.
+	为避免被直觉误导，请参阅 :ref:`compass`。
 
-**Reference** is what a user needs in order help *apply* knowledge and skill, while they
-are working.
+**参考手册** 是用户在工作时 *应用* 知识和技能所需的资料.
 
-**Explanation** is what someone will turn to to help them *acquire* knowledge
-and skill - "study".
+而 **概念解析** 则是人们为 *获取* 知识和技能而查阅的内容——即用于“学习”。
 
 
-Understanding those two relationships and responding to the needs in them is the key to creating
-effective reference and explanation.
+理解这两种关系并响应其需求，是创建高效参考手册与概念解析性内容的关键。
